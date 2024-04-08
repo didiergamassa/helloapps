@@ -17,9 +17,6 @@ def get_consumption_data(resource):
     return response.json()
 
 # Tarifs unitaires en euros/kWh
-unit_costs = {'electricity': 0.27, 'gas': 0.0913, 'water': 4.34}import streamlit as st
-
-# Tarifs unitaires en euros/kWh
 unit_costs = {'electricity': 0.27, 'gas': 0.0913, 'water': 4.34}
 
 # Calculer le coût total de la consommation en euros pour chaque ressource
