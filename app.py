@@ -1,9 +1,25 @@
 import streamlit as st
+import requests
+import pandas as pd
+import matplotlib.pyplot as plt
+
+import datetime
+st.set_option('deprecation.showPyplotGlobalUse', False)
+
+# Replace with your Heroku app URL
+
+# Adresse du backend Flask
+BACKEND_URL = 'https://backendener-8840ad7ad582.herokuapp.com/'
+
+# Récupérer les données de consommation depuis le backend
+def get_consumption_data(resource):
+    response = requests.get(f"{BACKEND_URL}/{resource}")
+    return response.json()
+
+# Tarifs unitaires en euros/kWh
+unit_costs = {'electricity': 0.27, 'gas': 0.0913, 'water': 4.34}import streamlit as st
 
 st.title("Hello guys")
-
-menu = ['Introduction','Environnement_d_un_Projet Smart Building','Visu Audit Energie + Deploiement Iot','Visu Solutions Iot + Plan Comptage','Visu Conso Energies(Elec/Gaz/Eau)',"Bilan Conso Energies(Elec/Gaz/Eau)"," Axes d'amélioration identifiées",'Visu Suivi des KPI Conso(Elec/Gaz/Eau)','Visu objectifs Réduction Conso Energies','Info + contacts utiles sites']
-choice=st.sidebar.selectbox("Menu",menu)
 
 # Tarifs unitaires en euros/kWh
 unit_costs = {'electricity': 0.27, 'gas': 0.0913, 'water': 4.34}
@@ -221,7 +237,7 @@ def main():
     elif choice == "Visu Conso Energies(Elec/Gaz/Eau)":
         st.title('Consumption Analysis')
         
-        response = requests.get('https://backend.herokuapp.com'/consumption_data')
+        response = requests.get('https://backendener-8840ad7ad582.herokuapp.com/consumption_data')
         consumption_data = response.json()
         data=consumption_data
             
