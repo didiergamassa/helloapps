@@ -9,7 +9,7 @@ st.set_option('deprecation.showPyplotGlobalUse', False)
 # Replace with your Heroku app URL
 
 # Adresse du backend Flask
-BACKEND_URL = 'https://backendener-8840ad7ad582.herokuapp.com/'
+BACKEND_URL = 'https://backendener-8840ad7ad582.herokuapp.com'
 
 # Récupérer les données de consommation depuis le backend
 def get_consumption_data(resource):
