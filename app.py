@@ -19,8 +19,6 @@ def get_consumption_data(resource):
 # Tarifs unitaires en euros/kWh
 unit_costs = {'electricity': 0.27, 'gas': 0.0913, 'water': 4.34}import streamlit as st
 
-st.title("Hello guys")
-
 # Tarifs unitaires en euros/kWh
 unit_costs = {'electricity': 0.27, 'gas': 0.0913, 'water': 4.34}
 
