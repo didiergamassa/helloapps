@@ -232,12 +232,10 @@ def main():
     elif choice == "Visu Conso Energies(Elec/Gaz/Eau)":
         st.title('Consumption Analysis')
         
-        response = requests.get('https://backendener-8840ad7ad582.herokuapp.com/consumption_data')
-        consumption_data = response.json()
-        data=consumption_data
-            
+        response = requests.get('https://backendener-8840ad7ad582.herokuapp.com/daily_consumption_data')
+        data = response.json()
+           
         visualize_consumption(data)
-
               
     elif choice == "Bilan Conso Energies(Elec/Gaz/Eau)":
         st.title('Bilan des Consommations Energétiques et Equivalent Co2 émis par le site')
