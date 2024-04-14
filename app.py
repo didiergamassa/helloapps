@@ -513,10 +513,6 @@ def main():
             st.title("Fournisseurs Public réseau LoRaWan")
             st.markdown('''#### LoRaWan : qu’est-ce que c’est ?''')
             
-            
-            
-            
-
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
