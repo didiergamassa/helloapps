@@ -511,8 +511,10 @@ def main():
         choice=st.sidebar.selectbox(" ",menu2 )
         if choice == "Fournisseurs Public réseau LoRaWan":
             st.title("Fournisseurs Public réseau LoRaWan")
-            st.markdown('''#### Technologie LoRaWan : qu’est-ce que c’est ?''')
-            st.markdown('''                                     ''')
+            st.markdown('''#### Technologie LoRa : qu’est-ce que c’est ?''')
+            st.markdown('''Dans la grande famille des technologies associées à l’Internet des Objets, on trouve LoRa et le protocole de communication LoRaWan. Leur mission : transporter de petites quantités de données sur de très longues distances. La spécification ouverte LoRaWAN est une norme de réseau étendu à faible puissance (LPWAN, Low Power Wide Area Network).
+                    La technologie LoRa exploite la bande de fréquence ISM (Industrielle, Scientifique et Médicale), internationalement réservée à des usages spécifiques. LoRaWan est régi par une association à but non lucratif appelée LoRa Alliance. La mission de la LoRa Alliance consiste à certifier les capteurs connectés et les équipements compatibles LoRa. Elle a également vocation à faire vivre la standardisation du protocole. LoRaWAN est reconnu par l’Union internationale des télécommunications (UIT).
+                    LoRa (pour Long Range) est une technologie qui a vu le jour en France. Développée par une start-up grenobloise en 2009, elle s’est imposée comme une solution de communication radio bas débit et longue portée, et exploite la bande de fréquences de 868 MHz. Avec la technologie LoRa, le signal est émis sur une grande largeur spectrale : cette caractéristique est essentielle car elle contribue à limiter l’exposition au risque d’interférences avec des émissions parasites. ''')
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
