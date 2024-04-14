@@ -311,9 +311,7 @@ def main():
         st.write("***Le PCI moyen en France = Pouvoir Calorifique Inférieur moyen en France est 11.2kwh/m3***")
         
         #Présentation des tarifs moyens  des consommations énéergétiques en France en 2022 et 2023 en €/kwh
-        
-          
-         
+                 
         st.subheader("Tarif  moyen national  de l'electricité , Gaz et l'eau en €/kwh en 2023 ")
         unit_costs_2023 = {'electricity_2023': 0.27,'gas_2023': 0.11617,'water_2023': 4.3}
         
