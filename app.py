@@ -122,7 +122,7 @@ def main():
     st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu contextuel</h1>", unsafe_allow_html=True)
     choice=st.sidebar.selectbox(" ",menu )
     if choice=="Introduction":
-       st.markdown(''' ## Démarche de mise en oeuvre d'un cabinet de conseil spécialisé en stratégie de management  Data ,Energie ,Environnement et Maintenance  en faveur de la transition écologique en France et dans le monde ! ''') 
+       st.markdown(''' ## Démarche de mise en oeuvre d'un cabinet français de conseil spécialisé en stratégie de management  Data ,Energie ,Environnement et Maintenance  en faveur de la transition écologique en France et dans le monde ! ''') 
        st.markdown(f"<u><h4><b> Promoteur du projet: </u></h4></b>", unsafe_allow_html=True)
        st.markdown(''' ######  Qui suis je? Je suis Landry Didier GAMASSA,mon parcours et experiences me présentent, comme un Data Scientist,Spécialiste en Energie,Ingénieur Génaraliste en Génie Electrique de l'Université des Sciences et Technologies de Lille ,Chef Projet Informatique certifié par l'Institut Poly Informatique de Paris ,Expert Asset Maintenance Management et Maitre d'Ouvrages technologiques dans tout secteur industriel .Très admiratif des grands batisseurs de notre planète,je suis passioné par les sciences et technologies et milite pour des innovations technologiques respectueuses de l'environnement et au service du bien etre de l'humanité .''')    
        st.markdown(f"<u><h4><b> Genèse du projet: </u></h4></b>", unsafe_allow_html=True)
