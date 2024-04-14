@@ -536,8 +536,6 @@ def main():
             st.title("Fournisseurs instruments IOT")
             st.markdown('''#### Technologie IOT : qu’est-ce que c’est ?''')
             st.markdown(''' 'La Technologie IoT (Internet des objets) désigne les objets physiques (véhicules, électroménager, objets prêts-à-porter et autres) qui sont connectés à Internet pour transmettre des données en ligne.''')
-            url13="https://biodiversite.gouv.fr/prendre-en-compte-le-lien-entre-sante-et-environnement-0"
-            st.markdown(f'<a href="{url13}" target="_blank">{"Cliquez ici pour visiter"+"www.prendre-en-compte-le-lien-entre-sante-et-environnement"}</a>', unsafe_allow_html=True)
             st.markdown('''Bouteille de gaz industrielle qui informe le dépôt quand elle doit être remplacée, implant cardiaque qui permet à un médecin de surveiller son patient à distance ou encore réfrigérateur qui signale quand il doit être réapprovisionné, les applications IoT pour les entreprises et les consommateurs envahissent notre quotidien ''')
             st.markdown('''##### Qui sont les fournisseurs des instruments IoT connus sur le marché français?? ''')  
             st.markdown(''' ##### Ci-dessous une liste non exhaustive de fournisseurs :''')
@@ -549,6 +547,8 @@ def main():
             st.title("Fournisseurs instruments Santé et Environnement")
             st.markdown('''#### Quel est la relation entre la santé et l'environnement ?''')
             st.markdown(''' L’environnement est un déterminant majeur de la santé humaine, à travers différents facteurs : la qualité des milieux (air, eau, etc.), les nuisances véhiculées (bruit, insalubrité, etc.), les variations climatiques… Les activités humaines peuvent également avoir un impact sur la santé, notamment les activités industrielles, urbaines ou l’évolution des technologies. Il est démontré que certaines pathologies peuvent être déterminées, ou aggravées, par ces facteurs, et donc par l’environnement dans lequel l’homme évolue. Pour répondre à ces enjeux et aux attentes citoyennes, le Gouvernement agit à travers plusieurs leviers.''')
+            url13="https://biodiversite.gouv.fr/prendre-en-compte-le-lien-entre-sante-et-environnement-0"
+            st.markdown(f'<a href="{url13}" target="_blank">{"Cliquez ici pour visiter"+"www.prendre-en-compte-le-lien-entre-sante-et-environnement"}</a>', unsafe_allow_html=True)
             st.markdown(''' ''')
             st.markdown(''' ''')  
               
