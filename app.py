@@ -526,7 +526,7 @@ def main():
             st.markdown('''##### 1.Bouygues Telecom''')
             url11="https://objenious.com/blog/technologie/arret-du-reseau-lorawan-de-bouygues-telecom/"
                             # Utilisation de st.markdown avec une syntaxe HTML pour créer le lien
-                st.markdown(f'<a href="{url11}" target="_blank">{"Cliquez ici pour visiter"+"www.bouygues-telecom"}</a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="{url11}" target="_blank">{"Cliquez ici pour visiter"+"www.bouygues-telecom"}</a>', unsafe_allow_html=True)
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
