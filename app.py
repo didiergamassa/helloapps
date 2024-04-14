@@ -154,7 +154,6 @@ def main():
        st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.entreprises-Gestion d'actifs"}</a>', unsafe_allow_html=True)
        st.markdown(''' ###### 2. Le portefeuille public constitué des collectivités et territoire français''')                                                                
        st.markdown(''' ###### La collaboration avec des organismes publics spécialisés dans l'accompagnement des acteurs territoriaux dans la realisation de leurs projets.''') 
-       st.markdown(''' ###### La collaboration avec des organismes publics spécialisés dans l'accompagnement des acteurs territoriaux dans la realisation de leurs projets.''') 
        url11="https://www.cerema.fr/fr/collectivites-territoriales"
        st.markdown(f'<a href="{url11}" target="_blank">{"Cliquez ici pour visiter"+"www.cerema"}</a>', unsafe_allow_html=True)
        
