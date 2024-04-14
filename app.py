@@ -151,7 +151,7 @@ def main():
        st.markdown(f"<u><h4><b> Clients potentiels : </u></h4></b>", unsafe_allow_html=True)
        st.markdown(''' ###### 1. Le portefeuille privé constitué des propriétaires et gestionnaires d'actif fonciers français dont la liste non exhaustive est la suivante:''')
        url10="https://www.linkfinance.fr/classement-entreprises-Gestion-d-actifs-6.html?page=8"
-       st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.entreprises-Gestion d'actifs"}</a>', unsafe_allow_html=True)
+       st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.Liste_entreprises-Gestion d'actifs"}</a>', unsafe_allow_html=True)
        st.markdown(''' ###### 2. Le portefeuille public constitué des collectivités et territoire français''')                                                                
        st.markdown(''' ###### La collaboration avec des organismes publics spécialisés dans l'accompagnement des acteurs territoriaux dans la realisation de leurs projets.''') 
        url11="https://www.cerema.fr/fr/collectivites-territoriales"
