@@ -539,7 +539,7 @@ def main():
             st.markdown('''Bouteille de gaz industrielle qui informe le dépôt quand elle doit être remplacée, implant cardiaque qui permet à un médecin de surveiller son patient à distance ou encore réfrigérateur qui signale quand il doit être réapprovisionné, les applications IoT pour les entreprises et les consommateurs envahissent notre quotidien ''')
             st.markdown('''##### Qui sont les fournisseurs des instruments IoT connus sur le marché français?? ''')  
             st.markdown(''' ##### Ci-dessous une liste non exhaustive de fournisseurs :''')
-            st.markdown('''  ##### 1. Wateco''')
+            st.markdown(''' ##### 1. Wateco''')
             st.markdown(''' ##### 2. Fludia''')
             st.markdown(''' ##### 3. DataPrint ''')
             st.markdown(''' ##### 4. Hydrélis''')
