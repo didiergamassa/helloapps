@@ -119,8 +119,8 @@ def visualize_consumption(data):
 
 def main():
     menu = ['Introduction','Environnement_d_un_Projet Smart Building','Audit Energie + Deploiement Iot','Solutions Iot + Plan Comptage','Bilan Conso Energies(Elec/Gaz/Eau)',"Diagnostic Performance Energétique","Bilan GES(Gaz à effet de serre)"," Axes d'amélioration identifiés",'Visu Suivi des KPI Conso(Elec/Gaz/Eau)','Visu objectifs Réduction Conso Energies','Info + contacts utiles sites']
-    st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu</h1>", unsafe_allow_html=True)
-    choice=st.sidebar.selectbox(" ",menu contextuel )
+    st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu contextuel</h1>", unsafe_allow_html=True)
+    choice=st.sidebar.selectbox(" ",menu )
     if choice=="Introduction":
        st.markdown(''' ## Démarche de mise en oeuvre d'un cabinet de conseil spécialisé en stratégie de management  Data ,Energie ,Environnement et Maintenance  en faveur de la transition écologique en France et dans le monde ! ''') 
        st.markdown(f"<u><h4><b> Promoteur du projet: </u></h4></b>", unsafe_allow_html=True)
