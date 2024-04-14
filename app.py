@@ -505,7 +505,7 @@ def main():
         st.markdown(f'<a href="{url8}" target="_blank">{"Cliquez ici pour visiter"+"www.mcdonalds-transition-ecologique.org/"}</a>', unsafe_allow_html=True)                       
         st.markdown(f'<a href="{url9}" target="_blank">{"Cliquez ici pour visiter"+"www.orki green bilan.org/"}</a>', unsafe_allow_html=True)                       
 
-    menu1 = ['Fournisseurs réseau LoRaWan Public','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement' ]
+    menu1 = ['Fournisseurs Public réseau LoRaWan','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement' ]
     st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
     choice=st.sidebar.selectbox(" ",menu1 )
     if choice == "Fournisseurs réseau LoRaWan Public":
