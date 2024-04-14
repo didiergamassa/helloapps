@@ -118,6 +118,7 @@ def visualize_consumption(data):
 
 
 def main():
+    def menu1():
     menu = ['Introduction','Environnement_d_un_Projet Smart Building','Audit Energie + Deploiement Iot','Solutions Iot + Plan Comptage','Bilan Conso Energies(Elec/Gaz/Eau)',"Diagnostic Performance Energétique","Bilan GES(Gaz à effet de serre)"," Axes d'amélioration identifiés",'Visu Suivi des KPI Conso(Elec/Gaz/Eau)','Visu objectifs Réduction Conso Energies','Info + contacts utiles sites']
     st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu contextuel</h1>", unsafe_allow_html=True)
     choice=st.sidebar.selectbox(" ",menu )
@@ -504,15 +505,25 @@ def main():
         st.markdown(f'<a href="{url7}" target="_blank">{"Cliquez ici pour visiter"+"www.mission-transition-ecologique.org/"}</a>', unsafe_allow_html=True)
         st.markdown(f'<a href="{url8}" target="_blank">{"Cliquez ici pour visiter"+"www.mcdonalds-transition-ecologique.org/"}</a>', unsafe_allow_html=True)                       
         st.markdown(f'<a href="{url9}" target="_blank">{"Cliquez ici pour visiter"+"www.orki green bilan.org/"}</a>', unsafe_allow_html=True)                       
+    def menu2():
+        menu1 = ['Fournisseurs Public réseau LoRaWan','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement' ]
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
+        choice=st.sidebar.selectbox(" ",menu1 )
+        if choice == "Fournisseurs Public réseau LoRaWan":
+            st.title("Fournisseurs Public réseau LoRaWan")
+            st.markdown('''#### LoRaWan : qu’est-ce que c’est ?''')
 
-    menu1 = ['Fournisseurs Public réseau LoRaWan','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement' ]
-    st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
-    choice=st.sidebar.selectbox(" ",menu1 )
-    if choice == "Fournisseurs Public réseau LoRaWan":
-        st.title("Fournisseurs Public réseau LoRaWan")
-        st.markdown('''#### LoRaWan : qu’est-ce que c’est ?''')
+    # Titre de la barre latérale
+    st.sidebar.title("Menu")
 
+    # Ajouter les éléments du menu
+    menu_selection = st.sidebar.radio("Sélectionnez une option", ("Menu 1", "Menu 2"))
 
+    # Afficher le contenu en fonction de la sélection du menu
+    if menu_selection == "Menu 1":
+        menu1()
+    elif menu_selection == "Menu 2":
+        menu2()
 
 
 
