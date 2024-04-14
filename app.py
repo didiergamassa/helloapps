@@ -140,7 +140,7 @@ def main():
        st.markdown(''' ######  >> 25000 lampes  à peu près pour l'éclairage du site''' )
        st.markdown(''' ######  La liste non exhaustive  des équipements mentionnés ci-dessus  vous présente une ville dans une ville et j'y ai officié en qualité de Responsable Energie et Maintenance.''')                                  
        st.markdown(f"<u><h4><b> Solutions de reduction des émissions des gaz à effet de serre liées aux consommations d'énergie dans le secteur de l'immobilier tertiaire: </u></h4></b>", unsafe_allow_html=True)
-       st.markdown(''' ###### Les solutions se déclinent en deux axes''')
+       st.markdown(''' ###### Les solutions se déclinent en deux axes:''')
        st.markdown(''' ###### 1. Axe reglementaire: Le Gouvernement fait recours  aux decrets reglementaires afin d'accélérer le processus de decarbonation du secteur de l'immobilier tertiaire''')
        st.markdown(''' ###### 2. Axe technologique: Les technologies Iot sont les meilleurs alliés de la transition écologique. Des capteurs discrets reliés à des plateformes IoT permettent aux acteurs de suivre en temps reel leurs consommations énergétiques''')                                                                                                                             
        st.markdown(f"<u><h4><b> Stratégie de developpement: </u></h4></b>", unsafe_allow_html=True)
