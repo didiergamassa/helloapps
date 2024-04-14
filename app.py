@@ -522,7 +522,7 @@ def main():
             st.markdown('''#### La couverture LoRaWan : Jusqu'à quelle distance ?''')
             st.markdown('''Le réseau LoRa présente des avantages majeurs. Chaque passerelle LoRawan offre une portée d’environ 10 km en zone rurale et 3 km dans les milieux urbains.
                         LoRaWan rend possible l’adaptation et la modulation du débit de données et la portée à travers ce qu’on appelle un facteur d’étalement ou spreading factor en anglais. Cette différence de couverture s’explique par la densité des constructions qui ont une incidence sur la circulation des données. Parce que la portée de chaque passerelle LoRaWan est étendue, cela limite la multiplication des relais. En conséquence, les coûts liés au déploiement d’une infrastructure LoRa sont nettement inférieurs à ceux d’un réseau GSM conventionnel. En France, Bouygues Telecom, l’un des membres fondateurs de l’alliance LoRa, est l’un des principaux opérateurs LoRaWAN''')
-                                    
+            st.markdown('''##### Qui sont les fournisseurs des réseaux Lora Publics? ''')                       
             
             
     # Titre de la barre latérale
