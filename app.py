@@ -511,7 +511,8 @@ def main():
         choice=st.sidebar.selectbox(" ",menu2 )
         if choice == "Fournisseurs Public réseau LoRaWan":
             st.title("Fournisseurs Public réseau LoRaWan")
-            st.markdown('''#### LoRaWan : qu’est-ce que c’est ?''')
+            st.markdown('''#### Technologie LoRaWan : qu’est-ce que c’est ?''')
+            st.markdown('''                                     ''')
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
