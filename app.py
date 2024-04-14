@@ -156,7 +156,7 @@ def main():
        st.markdown(''' ######  2.D'autre part, de par des milliards de mètres carrés de surface à auditer, promouvoir un partenariat gagnant-gagnant avec des cabinets reconnus dans le secteur du Conseil et Management de l'Energie tels que CITRON ou IQSPOT. ''')
        
        st.markdown(f"<u><h4><b> Clients potentiels : </u></h4></b>", unsafe_allow_html=True)
-       st.markdown(''' ###### Le portefeuille des clients potentiels est constitué de deux ensembles:''')
+       st.markdown(''' ###### Le portefeuille des clients potentiels est constitué de deux sous-ensembles:''')
        st.markdown(''' ###### 1. Le portefeuille privé constitué des propriétaires et gestionnaires d'actif fonciers français dont la liste non exhaustive est la suivante:''')
        url10="https://www.linkfinance.fr/classement-entreprises-Gestion-d-actifs-6.html?page=8"
        st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.Liste_entreprises-Gestion d'actifs"}</a>', unsafe_allow_html=True)
