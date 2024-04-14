@@ -532,7 +532,18 @@ def main():
                             # Utilisation de st.markdown avec une syntaxe HTML pour créer le lien
             st.markdown(f'<a href="{url12}" target="_blank">{"Cliquez ici pour visiter"+"www.Orange_Live_objects"}</a>', unsafe_allow_html=True)
     
-    
+        elif choice=="Fournisseurs instruments IOT":
+            st.title("Fournisseurs instruments IOT")
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
