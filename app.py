@@ -508,7 +508,9 @@ def main():
     menu1 = ['Fournisseurs réseau LoRaWan Public','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement' ]
     st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
     choice=st.sidebar.selectbox(" ",menu1 )
-
+    if choice == "Fournisseurs réseau LoRaWan Public":
+        st.title("Fournisseurs réseau LoRaWan Public")
+        st.markdown('''#### LoRaWan : qu’est-ce que c’est ?''')
 
 
 
