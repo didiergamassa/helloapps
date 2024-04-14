@@ -148,6 +148,21 @@ def main():
        st.markdown(''' ######  Afin de mieux accompagner nos futurs clients ,notre démarche se déclinera principalement en deux axes stratégiques:''')
        st.markdown(''' ######  1.D'une part,mettre la Data au coeur du pilotage de l'Energie ,de la santé ,de l'Environnement et de la Maintenance du parc matériel de tout site tertiaire. C'est ce qui se fait déja mais nos prestations s'effectuerons avec l'expertise des professionnels ayant des compétences reconnues en Management Data ,Energie ,Environnement et Maintenance que nous accompagnerons nos futurs clients''')                                                                
        st.markdown(''' ######  2.D'autre part, de par des milliards de mètres carrés de surface à auditer, promouvoir un partenariat gagnant-gagnant avec des cabinets reconnus dans le secteur du Conseil et Management de l'Energie tels que CITRON ou IQSPOT. ''')
+       st.markdown(f"<u><h4><b> Clients potentiels : </u></h4></b>", unsafe_allow_html=True)
+       st.markdown(''' ###### 1. Le portefeuille privé constitué des propriétaires et gestionnaires d'actif fonciers français dont la liste non exhaustive est la suivante:''')
+       url10="https://www.linkfinance.fr/classement-entreprises-Gestion-d-actifs-6.html?page=8"
+       st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.entreprises-Gestion d'actifs"}</a>', unsafe_allow_html=True)
+       st.markdown(''' ###### 2. Le portefeuille public constitué des collectivités et territoire français''')                                                                
+       st.markdown(''' ###### La collaboration avec des organismes publics spécialisés dans l'accompagnement des acteurs territoriaux dans la realisation de leurs projets.''') 
+       st.markdown(''' ###### La collaboration avec des organismes publics spécialisés dans l'accompagnement des acteurs territoriaux dans la realisation de leurs projets.''') 
+       url11="https://www.cerema.fr/fr/collectivites-territoriales"
+       st.markdown(f'<a href="{url11}" target="_blank">{"Cliquez ici pour visiter"+"www.cerema"}</a>', unsafe_allow_html=True)
+       
+       
+       
+       
+       
+       
        st.markdown(f"<u><h4><b> Contact: </u></h4></b>", unsafe_allow_html=True)
        st.markdown(''' ###### Mon contact mail: dgamassa.thermo@orange.fr ''')
        st.markdown(''' ###### Une citation très célèbre:<<La persistance est la force la plus puissante sur terre ,elle peut déplacer des montagnes .J'y ajouterais ceci:<< L'intelligence collective ou en réseau  peut aussi déplacer des montagnes et peut etre accélératrice des projets complexes.Et enfin ,le socle d'un projet est constitué d'une part  de belles idées et d'autre part  de belles finances!Je reste à l'écoute principalement de vos conseils en financement.Le business plan est ficelé ,les fournisseurs d'instruments IOT sélectionnés et ne reste plus qu'à trouver les meilleures solutions de financement pour que cette démarche se concrétise en un grand pas vers une planète de plus en plus  verte.!!''' )
