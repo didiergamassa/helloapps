@@ -535,7 +535,7 @@ def main():
         elif choice=="Fournisseurs instruments IOT":
             st.title("Fournisseurs instruments IOT")
             st.markdown('''#### Technologie IOT : qu’est-ce que c’est ?''')
-            st.markdown(''' 'Internet des objets (IoT) désigne les objets physiques (véhicules, électroménager, objets prêts-à-porter et autres) qui sont connectés à Internet pour transmettre des données en ligne.''')
+            st.markdown(''' 'La Technologie IoT (Internet des objets) désigne les objets physiques (véhicules, électroménager, objets prêts-à-porter et autres) qui sont connectés à Internet pour transmettre des données en ligne.''')
             st.markdown('''Bouteille de gaz industrielle qui informe le dépôt quand elle doit être remplacée, implant cardiaque qui permet à un médecin de surveiller son patient à distance ou encore réfrigérateur qui signale quand il doit être réapprovisionné, les applications IoT pour les entreprises et les consommateurs envahissent notre quotidien ''')
         
         
