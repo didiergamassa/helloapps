@@ -514,7 +514,7 @@ def main():
             st.markdown('''#### LoRaWan : qu’est-ce que c’est ?''')
 
     # Titre de la barre latérale
-    st.sidebar.title("Menu")
+    st.sidebar.title("Menus du Projet APEGG")
 
     # Ajouter les éléments du menu
     menu_selection = st.sidebar.radio("Sélectionnez une option", ("Menu 1", "Menu 2"))
