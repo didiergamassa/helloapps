@@ -143,7 +143,7 @@ def main():
        st.markdown(''' ###### Les solutions se déclinent en deux axes:''')
        st.markdown(''' ###### 1. Axe reglementaire: Le Gouvernement fait recours  aux decrets reglementaires afin d'accélérer le processus de decarbonation du secteur de l'immobilier tertiaire''')
        st.markdown(''' ###### 2. Axe technologique: Les technologies Iot sont les meilleurs alliés de la transition écologique. Des capteurs discrets reliés à des plateformes IoT permettent aux acteurs de suivre en temps reel leurs consommations énergétiques''')                                                                                                                             
-       st.markdown(f"<u><h4><b> Stratégie de developpement: </u></h4></b>", unsafe_allow_html=True)
+       st.markdown(f"<u><h4><b> Stratégie de developpement commercial: </u></h4></b>", unsafe_allow_html=True)
        st.markdown(''' ######  Afin de mieux accompagner nos futurs clients ,notre démarche se déclinera en deux axes stratégiques:''')
        st.markdown(''' ######  1.D'une part,mettre la Data au coeur du pilotage de l'Energie ,de l'Environnement et de la Maintenance du parc matériel de tout site tertiaire. C'est ce qui se fait déja mais nos prestations s'effectuerons avec l'expertise des professionnels ayant des compétences reconnues en Management Data ,Energie ,Environnement et Maintenance que nous accompagnerons nos futurs clients''')                                                                
        st.markdown(''' ######  2.D'autre part, de par des milliards de mètres carrés de surface à auditer, promouvoir un partenariat gagnant-gagnant avec des cabinets reconnus dans le secteur du Conseil et Management de l'Energie tels que CITRON ou IQSPOT. ''')
