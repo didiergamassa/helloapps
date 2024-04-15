@@ -560,6 +560,10 @@ def main():
         choice=st.sidebar.selectbox(" ",menu3 )
         if choice == "Budget de conception du projet":
             st.title("Budget de conception du projet")
+            
+        if choice == "Budget de deploiement du projet":
+            st.title("Budget de deploiement du projet")
+            
         
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
