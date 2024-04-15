@@ -558,7 +558,8 @@ def main():
         menu3 = ['Budget de conception du projet','Budget de deploiement du projet' ]
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Budget Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu3 )
-        
+         if choice == "Budget de conception du projet":
+            st.title("Budget de conception du projet")
         
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
