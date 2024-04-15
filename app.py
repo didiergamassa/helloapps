@@ -555,7 +555,7 @@ def main():
             st.markdown(f'<a href="{url14}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
             
     def menu3():   
-        menu3 = ['Budget de conception du projet','Budget de réalisation terrain du projet' ]
+        menu3 = ['Budget de conception du projet','Budget de deploiement du projet' ]
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Budget Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu3 )
         
