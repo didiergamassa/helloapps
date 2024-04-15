@@ -564,7 +564,7 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option", ("Menu 1", "Menu 2"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option", ("Menu 1", "Menu 2","Menu 3"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "Menu 1":
