@@ -550,7 +550,7 @@ def main():
             url13="https://biodiversite.gouv.fr/prendre-en-compte-le-lien-entre-sante-et-environnement-0"
             st.markdown(f'<a href="{url13}" target="_blank">{"Cliquez ici pour visiter"+"www.prendre-en-compte-le-lien-entre-sante-et-environnement"}</a>', unsafe_allow_html=True)
             st.markdown('''##### Qui sont les fournisseurs des instruments de santé et environnement en France ? ''')
-            st.markdown('''Un grand fournisseur mondial qui a été l employeur du promoteur de ce projet  pendant 12ans et qui l'a permis de dévelloper des compétences en maintenance des systèmes biomédicaux .Les voyages professionnels à travers le monde ont permis à Landry Didier GAMASSA d'évaluer les enjeux planétaires des changements climatiques .''')  
+            st.markdown('''Un grand fournisseur mondial qui a été l employeur du promoteur de ce projet  pendant 12ans et qui lui a offert l'opportunité de dévelloper des compétences en maintenance des systèmes biomédicaux .Les voyages professionnels à travers le monde,en faveur de Thermo Fisher Scientific ,ont permis à Landry Didier GAMASSA d'évaluer les enjeux planétaires des changements climatiques .''')  
             url14="https://www.thermofisher.com/fr/fr/home.html"
             st.markdown(f'<a href="{url14}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
             
