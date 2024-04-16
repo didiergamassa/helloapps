@@ -687,9 +687,18 @@ def main():
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
     def menu6():
-        menu6=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de Test </h1>", unsafe_allow_html=True)
+        st.title("L'environnement de test des composé des éléments suivants :")
+        st.markdown(''' ##### 1. Solutions de stockage  : ''') 
+           
+    
+    
+    
+    
+    def menu7():
+        menu7=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu6 )        
+        choice=st.sidebar.selectbox(" ",menu7 )        
         if choice == "Industries":
             st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
             st.markdown(''' ##### 1. Industries  : ''') 
@@ -750,7 +759,7 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réeseau_LoRaWan","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Quel avenir dans 5ans?"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réeseau_LoRaWan","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Environnement de Test","7_Quel avenir dans 5ans?"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "1_Conception":
@@ -763,8 +772,8 @@ def main():
         menu4()
     elif menu_selection == "5_Architecture_Réseau":
         menu5()
-    elif menu_selection == "6_Quel avenir dans 5ans?":
-        menu6()
+    elif menu_selection == "7_Quel avenir dans 5ans?":
+        menu7()
     
 
 
