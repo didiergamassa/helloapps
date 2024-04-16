@@ -663,10 +663,20 @@ def main():
             st.markdown(f'<a href="{url16}" target="_blank">{"Cliquez ici pour visiter"+"www.MultiTech-Conduit-AP-EU868-datasheet-FR.pdf"}</a>', unsafe_allow_html=True)
             
             st.markdown('''##### Notre catalogue offrira à son deploiement initial un modèle de capteur de comptage à impulsion electrique ou Optique en entrée et en sortie ils emettront un signal Lora vers la Passerelle''')
-            st.markdown('''##### 1. **Marque Fludia : ''')
-            url16="https://www.fludia.com/fr/accueil/"
-            st.markdown(f'<a href="{url16}" target="_blank">{"Cliquez ici pour visiter"+"www.Fludia"}</a>', unsafe_allow_html=True)
+            st.markdown('''#### 1. **Marque Fludia : ''')
+            url17="https://www.fludia.com/fr/accueil/"
+            st.markdown(f'<a href="{url17}" target="_blank">{"Cliquez ici pour visiter"+"www.Fludia"}</a>', unsafe_allow_html=True)
             
+            
+            st.markdown('''#### 2. **Marque WATTECO : ''')
+            url18="https://www.watteco.fr/a-propos/"
+            st.markdown(f'<a href="{url18}" target="_blank">{"Cliquez ici pour visiter"+"www.WATTECO"}</a>', unsafe_allow_html=True)
+                         
+            url19="https://www.watteco.fr/produit/capteur-pulse-senso-lorawan/"
+            st.markdown(f'<a href="{url19}" target="_blank">{"Cliquez ici pour visiter"+"www.WATTECO"}</a>', unsafe_allow_html=True)
+            
+            url20="https://www.watteco.fr/produit/capteur-vaqao-lorawan/"
+            st.markdown(f'<a href="{url20}" target="_blank">{"Cliquez ici pour visiter"+"www.WATTECO_CAPTEUR_VAQAO"}</a>', unsafe_allow_html=True)
             
             
             
