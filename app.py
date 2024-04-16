@@ -678,6 +678,14 @@ def main():
             url20="https://www.watteco.fr/produit/capteur-vaqao-lorawan/"
             st.markdown(f'<a href="{url20}" target="_blank">{"Cliquez ici pour visiter"+"www.WATTECO_CAPTEUR_VAQAO"}</a>', unsafe_allow_html=True)
             
+    def menu6():
+        menu5=['Flux Architecture Réseau','Services Cloud intégré']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
+        choice=st.sidebar.selectbox(" ",menu5 )        
+            
+    
+            
+            
     def menu5():
         menu5=['Industries ','Transports']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
