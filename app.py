@@ -647,8 +647,7 @@ def main():
                         
                         
             st.markdown(''' ##### 8. **Contraintes de temps et de budget** : ''') 
-            st.markdown(''' ###### Le projet devra être réalisé dans un délai à définir avec l'équipe dev fullstack avec un budget maximal à définir avec l'équipe dev fullstack localisée en Outre atlantique pour des motifs de maitrise des couts liéE à la mise en oeuvre d'un projet Saas.') 
-                    
+            st.markdown(''' ###### Le projet devra être réalisé dans un délai à définir avec l'équipe dev fullstack avec un budget maximal à définir avec l'équipe dev fullstack localisée en Outre Atlantique pour des motifs de maitrise des couts liéE à la mise en oeuvre d'un projet Saas.''')                    
                                    
             
             
