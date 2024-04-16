@@ -682,10 +682,10 @@ def main():
         menu5=['Flux Architecture Réseau','Services Cloud intégré']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu5 )        
-            
+        if choice == "Flux Architecture Réseau":
+            st.title("Flux Architecture Réseau")
+            st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
-            
-            
     def menu6():
         menu5=['Industries ','Transports']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
