@@ -687,7 +687,7 @@ def main():
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
     def menu6():
-        menu6=['Industries','Transports','Mines']
+        menu6=['Industries','Transports','Mines','Agriculture']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
@@ -730,7 +730,10 @@ def main():
             url28="https://www.worldsensing.com/fr/article/iot-remote-monitoring-of-open-pit-mines/"
             st.markdown(f'<a href="{url28}" target="_blank">{"Cliquez ici pour visiter"+"www.Télésurveillance IoT des Mines"}</a>', unsafe_allow_html=True) 
     
-    
+        elif choice=="Agriculture":
+            st.title("Agriculture")
+            url29="https://www.blog-qhse.com/internet-des-objets-iot-au-coeur-de-lagriculture-4.0"
+            st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.liot-au-coeur-de-lagriculture"}</a>', unsafe_allow_html=True) 
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
