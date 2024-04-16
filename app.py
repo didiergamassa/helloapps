@@ -699,7 +699,7 @@ def main():
             url21="https://iotjourney.orange.com/fr-FR/explorer/les-solutions-iot/iot-dans-l-industrie"
             st.markdown(f'<a href="{url21}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot2 dans l'Industrie"}</a>', unsafe_allow_html=True)     
             url23="https://youtu.be/DWhuPAR9N0A?si=Pgz79VXYP4S491hw"
-            st.markdown(f'<a href="{url21}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot3 dans l'Industrie"}</a>', unsafe_allow_html=True)    
+            st.markdown(f'<a href="{url23}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot3 dans l'Industrie"}</a>', unsafe_allow_html=True)    
         
                 
         elif choice == "Transports":
