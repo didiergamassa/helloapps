@@ -656,11 +656,16 @@ def main():
                             - Documentation utilisateur pour les administrateurs et les clients.''')
         elif choice == "Contraintes Techniques":
             st.title("Contraintes Techniques")
+            
             st.markdown('''##### Notre catalogue offrira à son deploiement initial un modèle unique de passerelle des signaux  des capteurs Iot déployés sur un site vers nos serveurs''')
             st.markdown('''##### 1. **Marque Multitech /Modèle MTCAP-L4E1-868-041A**/Protocole Lorawan/Ethernet& 4G /Cout estimati HT 420€ : ''')
             url16="https://www.dataprint.fr/support/multitech/MultiTech-Conduit-AP-EU868-datasheet-FR.pdf"
             st.markdown(f'<a href="{url16}" target="_blank">{"Cliquez ici pour visiter"+"www.MultiTech-Conduit-AP-EU868-datasheet-FR.pdf"}</a>', unsafe_allow_html=True)
             
+            st.markdown('''##### Notre catalogue offrira à son deploiement initial un modèle de capteur de comptage à impulsion electrique ou Optique en entrée et en sortie ils emettront un signal Lora vers la Passerelle''')
+            st.markdown('''##### 1. **Marque Fludia : ''')
+            url16="https://www.fludia.com/fr/accueil/"
+            st.markdown(f'<a href="{url16}" target="_blank">{"Cliquez ici pour visiter"+"www.Fludia"}</a>', unsafe_allow_html=True)
             
             
             
