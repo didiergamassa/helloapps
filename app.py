@@ -570,7 +570,7 @@ def main():
             st.title("Budget Test et Deploiement Saas  projet")
             st.markdown('''## ................................€uros  ''')
             
-    def menu4():
+    def menu4_Exigences_Fonctionnelles():
         menu4_Exigences_Fonctionnelles=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu4_Exigences_Fonctionnelles)
