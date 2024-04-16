@@ -571,19 +571,48 @@ def main():
     def menu4():
         menu4=['Exigences fonctionnelles','Exigences non fonctionnelles']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
+        choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Exigences fonctionnelles":
             st.title("Exigences fonctionnelles")
-            st.markdown('''## ................................€uros  ''')
-        
-        
-        
-        if choice == "Budget de conception du projet":
-            st.title("Budget de conception du Saas_projet")
-            st.markdown('''## ................................€uros  ''')
-        
-        
-        
-        
+            st.markdown(''' ##### **Gestion des appareils IoT** :
+                        - Ajout, suppression et modification d'appareils IoT dans la flotte.
+                        - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.).
+                        - Surveillance en temps réel de l'état de chaque appareil IoT (connexion, batterie, capteurs, etc.).
+                            ''')
+            st.markdown
+            st.markdown(''' ##### 2. **Visualisation des données** :
+                        - Affichage en temps réel des données collectées par chaque appareil IoT.
+                        - Capacité à visualiser des données historiques et à générer des rapports analytiques.
+                        - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.
+                                ''')
+            st.markdown(''' ##### 3.**Alertes et notifications** :
+                        - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.).
+                        - Envoi de notifications en temps réel par e-mail, SMS ou intégration à d'autres systèmes de notification.
+                            ''')
+            st.markdown(''' ##### 4. **Gestion des utilisateurs et des rôles** :
+                        - Création de comptes utilisateur avec différents niveaux d'accès.
+                        - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.
+                        - Possibilité de gérer les équipes et les clients au sein de l'application.
+                            ''')
+            st.markdown(''' ##### 5.5. **Facturation et gestion des abonnements pour client occasionnel** :
+                        - Système de facturation intégré pour la gestion des abonnements clients.
+                        - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
+                                                ''')
+            st.markdown('''##### 6. **Personnalisation et branding** :Exigence optionnelle:
+                        - Personnalisation de l'interface utilisateur et du branding pour chaque client.
+                        - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
+                            ''')
+            st.markdown('''#####      ''')
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
