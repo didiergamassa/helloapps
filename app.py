@@ -521,11 +521,11 @@ def main():
             st.markdown('''Le réseau LoRa présente des avantages majeurs. Chaque passerelle LoRawan offre une portée d’environ 10 km en zone rurale et 3 km dans les milieux urbains.
                         LoRaWan rend possible l’adaptation et la modulation du débit de données et la portée à travers ce qu’on appelle un facteur d’étalement ou spreading factor en anglais. Cette différence de couverture s’explique par la densité des constructions qui ont une incidence sur la circulation des données. Parce que la portée de chaque passerelle LoRaWan est étendue, cela limite la multiplication des relais. En conséquence, les coûts liés au déploiement d’une infrastructure LoRa sont nettement inférieurs à ceux d’un réseau GSM conventionnel. En France, Bouygues Telecom, l’un des membres fondateurs de l’alliance LoRa, est l’un des principaux opérateurs LoRaWAN''')
             st.markdown('''##### Qui sont les fournisseurs des réseaux Lora Publics? ''')                       
-            st.markdown('''##### 1.Bouygues Telecom''')
+            st.markdown('''##### 1.Bouygues Telecom qui va arreter son service IoT OBJENIOUS''')
             url11="https://objenious.com/blog/technologie/arret-du-reseau-lorawan-de-bouygues-telecom/"
                             # Utilisation de st.markdown avec une syntaxe HTML pour créer le lien
             st.markdown(f'<a href="{url11}" target="_blank">{"Cliquez ici pour visiter"+"www.bouygues-telecom"}</a>', unsafe_allow_html=True)
-            st.markdown('''##### 2.Orange''')
+            st.markdown('''##### 2.Orange qui a le plus grand marché public avec son service LiveObject''')
             url12="https://liveobjects.orange-business.com/#/liveobjects"
                             # Utilisation de st.markdown avec une syntaxe HTML pour créer le lien
             st.markdown(f'<a href="{url12}" target="_blank">{"Cliquez ici pour visiter"+"www.Orange_Live_objects"}</a>', unsafe_allow_html=True)
