@@ -725,7 +725,7 @@ def main():
         elif choice=="Mines":
             st.title("Mines")
             url27="https://www.teamfrance-export.fr/infos-sectorielles/2346/2346-liot-devient-une-necessite-pour-le-secteur-minier"
-            st.markdown(f'<a href="{url27}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True) 
+            st.markdown(f'<a href="{url27}" target="_blank">{"Cliquez ici pour visiter"+"www.liot-devient-une-necessite-pour-le-secteur-minier"}</a>', unsafe_allow_html=True) 
             
             url28="https://www.worldsensing.com/fr/article/iot-remote-monitoring-of-open-pit-mines/"
             st.markdown(f'<a href="{url28}" target="_blank">{"Cliquez ici pour visiter"+"www.Télésurveillance IoT des Mines"}</a>', unsafe_allow_html=True) 
