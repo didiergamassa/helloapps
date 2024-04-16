@@ -569,7 +569,7 @@ def main():
             st.markdown('''## ................................€uros  ''')
             
     def menu4():
-        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles']
+        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles','Intégrations tieces','Technologies requises','Fournisseur Cloud selectionné','Livrables attendus']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Exigences fonctionnelles":
@@ -615,23 +615,28 @@ def main():
            
             st.markdown(''' ##### 3. ** **Performances** :
                         - Temps de réponse rapide pour assurer une expérience utilisateur fluide.
-                        - Optimisation des requêtes et de la gestion des données pour minimiser les temps de latence.''')                                                                                                        - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.).
+                        - Optimisation des requêtes et de la gestion des données pour minimiser les temps de latence.''') 
                         
             st.markdown(''' ##### 4. **Support client et maintenance** :
                         -Mise en place d'un système de support client réactif via différents canaux (e-mail, chat en direct, etc.)
-                        -Maintenance régulière de l'application pour assurer sa stabilité et sa sécurité
-                            ''')
-            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel
-                        - Système de facturation intégré pour la gestion des abonnements clients.
-                        - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
-                                                ''')
-            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.
-                        - Personnalisation de l'interface utilisateur et du branding pour chaque client.
-                        - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
-                            ''')
+                        -Maintenance régulière de l'application pour assurer sa stabilité et sa sécurité  ''')
             
-            st.markdown(''' #####      ''')
-        
+            st.markdown(''' ##### 5. **Technologie requises** : ''') 
+            st.markdown(''' ###### L'application SaaS devra être développée en utilisant les technologies suivantes : ''') 
+            st.markdown(''' - Langage de programmation : [préciser le langage, par exemple, JavaScript, Python, etc.].
+                            - Frameworks : [préciser les frameworks, par exemple, React.js, Django, etc.].
+                            - Infrastructure cloud pour le déploiement SaaS (AWS, Azure, Google Cloud, etc.).
+                            - Base de données : [préciser la base de données, par exemple, MySQL, MongoDB, etc.].
+''')            
+            st.markdown(''' ##### 6. **Intégrations tierces** : ''') 
+            st.markdown(''' ###### L'application SaaS devra être capable de s'intégrer avec d'autres systèmes tiers, tels que : ''') 
+            st.markdown(''' - Systèmes de gestion de la relation client (CRM).
+                            - Outils de marketing automation.
+                            - Systèmes de gestion des ressources humaines (RH).
+                            - Outils de business intelligence (BI).
+                            - Plateformes de communication (e-mail, SMS, etc.).
+                            - Systèmes de gestion des stocks et des commandes.
+                            - Outils de reporting et d'analyse de données.''')        
             
             
             
