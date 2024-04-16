@@ -687,7 +687,7 @@ def main():
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
     def menu6():
-        menu6=['Environnement_de_Test']
+        menu6=['Environnement_de_Test','Environnement_de_Production']
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Flux Architecture Réseau":
             st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de Test </h1>", unsafe_allow_html=True)
