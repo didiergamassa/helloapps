@@ -554,6 +554,13 @@ def main():
         elif choice=="Fournisseurs Privé réseau LoRaWan":
             st.title("Fournisseurs Privé réseau LoRaWan") 
             st.markdown(''' ##### Option non envisageable car à usage secret ou militaire . Clientèle non ciblé par le SaaS''')
+            st.title("Visualisation de PDF dans Streamlit")
+
+            # Nom du fichier PDF local
+            pdf_file = "nom_du_fichier.pdf"
+
+            # Intégration du fichier PDF à l'aide d'un élément <iframe>
+            st.components.v1.html(f'<iframe src="{pdf_file}" width="800" height="600"></iframe>')
             
                
     def menu3():   
