@@ -636,23 +636,22 @@ def main():
                             - Systèmes de gestion des stocks et des commandes.
                             - Outils de reporting et d'analyse de données.''')        
             
-            st.markdown(''' ##### 7. **Livrables attendus** : ''') 
+            
+            st.markdown(''' ##### 7. **Validations et Tests** : ''') 
+            st.markdown(''' ###### Avant le déploiement commercial ,l'application devra passer par une phase de validation et de tests approfondis pour garantir sa qualité et sa fiabilité.Si nécessaire ,nous solliciterons les infrastructures de notre futur hébergeur qui est Data Print''')                    
+
+
+           
+            st.markdown(''' ##### 8. **Contraintes de temps et de budget** : ''') 
+            st.markdown(''' ###### Le projet devra être réalisé dans un délai à définir avec l'équipe dev fullstack avec un budget maximal à définir avec l'équipe dev fullstack localisée en Outre Atlantique pour des motifs de maitrise des couts liéE à la mise en oeuvre d'un projet Saas.''')                    
+            
+            st.markdown('''##### 9.Livrables attendus''')
             st.markdown(''' ###### À la fin du projet, les livrables suivants sont attendus : ''') 
             st.markdown('''
                             - Code source de l'application.
                             - Documentation technique détaillée.
                             - Guide de déploiement pour l'infrastructure SaaS.
-                            - Documentation utilisateur pour les administrateurs et les clients.''')      
-                                    
-            st.markdown(''' ##### 8. **Contraintes de temps et de budget** : ''') 
-            st.markdown(''' ###### Le projet devra être réalisé dans un délai à définir avec l'équipe dev fullstack avec un budget maximal à définir avec l'équipe dev fullstack localisée en Outre Atlantique pour des motifs de maitrise des couts liéE à la mise en oeuvre d'un projet Saas.''')                    
-
-            st.markdown(''' ##### 9. **Validation et Tests** : ''') 
-            st.markdown(''' ###### Avant le déploiement commercial, l'application devra passer par une phase de validation et de tests approfondis pour garantir sa qualité et sa fiabilité.''')                                          
-            
-            
-            
-            
+                            - Documentation utilisateur pour les administrateurs et les clients.''')
             
             
     # Titre de la barre latérale
