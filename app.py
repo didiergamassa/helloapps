@@ -592,7 +592,7 @@ def main():
                         - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.
                         - Possibilité de gérer les équipes et les clients au sein de l'application.
                             ''')
-            st.markdown(''' ##### 5. **Facturation et gestion des abonnements ** : exigence optionnelle
+            st.markdown(''' ##### 5. **Facturation et gestion des abonnements ** : Exigence optionnelle
                         - Système de facturation intégré pour la gestion des abonnements clients.
                         - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
                                                 ''')
