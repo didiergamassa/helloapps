@@ -555,7 +555,7 @@ def main():
             st.markdown(f'<a href="{url14}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
         elif choice=="Fournisseurs Privé réseau LoRaWan":
             st.title("Fournisseurs Privé réseau LoRaWan") 
-            
+            st.markdown(''' ##### Option non envisageable car à usage secret ou militaire . Clientèle non ciblé ''')
             
                
     def menu3():   
