@@ -737,7 +737,7 @@ def main():
             
         elif choice=="Géolocalisation":
             st.title("Géolocalisation")
-            st.title(" L'Afrique absente de l'Alliance LoRa et le Cabinet-Apegg va impulser la participation de l'Afrique à la révolution Iot")
+            st.title(" L'Afrique absente de l'Alliance LoRa!Le Cabinet-Apegg va impulser la participation de l'Afrique à la révolution Iot")
             url29="https://www.violainecherrier.com/wp-content/uploads/2020/03/Livre-Blanc-final-V2-Pages.pdf"
             st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.lnternet et Géolocalisation Une doublerévolution"}</a>', unsafe_allow_html=True) 
             
