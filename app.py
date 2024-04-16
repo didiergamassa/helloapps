@@ -656,10 +656,17 @@ def main():
                             - Documentation utilisateur pour les administrateurs et les clients.''')
         elif choice == "Contraintes Techniques":
             st.title("Contraintes Techniques")
-            st.markdown('''##### Sélection de la Passerelle signaux  des capteurs Iot déployés sur un site ''')
+            st.markdown('''##### Notre catalogue offrira à son deploiement initial un modèle unique de passerelle des signaux  des capteurs Iot déployés sur un site vers nos serveurs''')
             st.markdown('''##### 1. **Marque Multitech /Modèle MTCAP-L4E1-868-041A**/Protocole Lorawan/Ethernet& 4G /Cout estimati HT 420€ : ''')
             url16="https://www.dataprint.fr/support/multitech/MultiTech-Conduit-AP-EU868-datasheet-FR.pdf"
             st.markdown(f'<a href="{url16}" target="_blank">{"Cliquez ici pour visiter"+"www.MultiTech-Conduit-AP-EU868-datasheet-FR.pdf"}</a>', unsafe_allow_html=True)
+            
+            
+            
+            
+            
+            
+            
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
