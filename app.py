@@ -806,19 +806,20 @@ def main():
         menu1()
     elif menu_selection == "2_Fournisseurs_Réseau_LoRaWan":
         menu2()
-    elif menu_selection == "3_Budget":
-        menu3()
-    elif menu_selection == "4_Exigences_Fonctionnelles":
+    elif menu_selection == "3_Fournisseurs_Instruments_IoT ":
+        menu3()    
+    elif menu_selection == "4_Budget":
         menu4()
-    elif menu_selection == "5_Architecture_Réseau":
+    elif menu_selection == "5_Exigences_Fonctionnelles":
         menu5()
-    elif menu_selection == "6_Environnement_Test|Production":
+    elif menu_selection == "6_Architecture_Réseau":
         menu6()
     elif menu_selection == "7_Environnement_Test|Production":
         menu7()
-       
-    elif menu_selection == "8_Et_Quel_avenir_dans_5ans?":
+    elif menu_selection == "8_Environnement_Deploiement_Iot":
         menu8()
+    elif menu_selection == "9_Et_Quel_avenir_dans_5ans?":
+        menu9()
     
 
 
