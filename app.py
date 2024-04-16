@@ -709,6 +709,9 @@ def main():
             url24="https://www.lemondeinformatique.fr/actualites/lire-comment-rolls-royce-gere-l-iot-dans-l-aeronautique-85993.html"
             st.markdown(f'<a href="{url24}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans l'aeronautique"}</a>', unsafe_allow_html=True)     
             
+            url30="https://www.globalsign.com/fr/blog/iot-moteur-du-secteur-aerien"
+            st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot moteur du secteur aerien"}</a>', unsafe_allow_html=True)  
+            
             url25="https://www.transportinfo.fr/internet-des-objets-iot-partout-et-pour-tout/"
             st.markdown(f'<a href="{url25}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le transport routier"}</a>', unsafe_allow_html=True)  
             
