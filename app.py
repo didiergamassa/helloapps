@@ -712,6 +712,10 @@ def main():
             url25="https://www.transportinfo.fr/internet-des-objets-iot-partout-et-pour-tout/"
             st.markdown(f'<a href="{url25}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le transport routier"}</a>', unsafe_allow_html=True)  
             
+            url26="https://www.transportinfo.fr/internet-des-objets-iot-partout-et-pour-tout/"
+            st.markdown(f'<a href="{url26}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True) 
+   
+   
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
