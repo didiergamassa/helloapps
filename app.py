@@ -555,7 +555,7 @@ def main():
             st.title("Fournisseurs Privé réseau LoRaWan") 
             st.markdown(''' ##### Offre  non envisageable dans notre catalogue mais à étudier pour des besoins spécifiques''')
             url15="https://dataprint.fr/support/packs/flyer-reseau-prive-lorawan-dataprint-1.2-web.pdf "
-            st.markdown(f'<a href="{url15}" target="_blank">{"Cliquez ici pour visiter"+"www.lorawanréseauprivé.com"}</a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="{url15}" target="_blank">{"Cliquez ici pour visiter"+"www.lorawanréseauprive.com"}</a>', unsafe_allow_html=True)
                         
                
     def menu3():   
