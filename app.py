@@ -554,14 +554,20 @@ def main():
         elif choice=="Fournisseurs Privé réseau LoRaWan":
             st.title("Fournisseurs Privé réseau LoRaWan") 
             st.markdown(''' ##### Option non envisageable car à usage secret ou militaire . Clientèle non ciblé par le SaaS''')
+            from pdf2image import convert_from_path
+
             st.title("Visualisation de PDF dans Streamlit")
 
             # Nom du fichier PDF local
-            pdf_file = "ReseauPriveLorawan.pdf"
+            pdf_file = "nom_du_fichier.pdf"
 
-            # Intégration du fichier PDF à l'aide d'un élément <iframe>
-            st.components.v1.html(f'<iframe src="{pdf_file}" width="800" height="600"></iframe>')
-            
+            # Convertir le PDF en images
+            images = convert_from_path(pdf_file)
+
+            # Afficher les images dans l'application Streamlit
+            for i, image in enumerate(images):
+                st.image(image, caption=f"Page {i+1}", use_column_width=True)
+                        
                
     def menu3():   
         menu3 = ['Budget de conception du projet','Budget de deploiement du projet' ]
