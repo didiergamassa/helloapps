@@ -553,7 +553,11 @@ def main():
             st.markdown('''Un grand fournisseur mondial qui a été l employeur du promoteur de ce projet  pendant 12ans et qui lui a offert l'opportunité de dévelloper des compétences en maintenance des systèmes biomédicaux .Les voyages professionnels à travers le monde,en faveur de Thermo Fisher Scientific ,ont permis à Landry Didier GAMASSA d'évaluer les enjeux planétaires des changements climatiques .''')  
             url14="https://www.thermofisher.com/fr/fr/home.html"
             st.markdown(f'<a href="{url14}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
+        elif choice=="Fournisseurs Privé réseau LoRaWan":
+            st.title("Fournisseurs Privé réseau LoRaWan") 
             
+            
+               
     def menu3():   
         menu3 = ['Budget de conception du projet','Budget de deploiement du projet' ]
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Budget Projet </h1>", unsafe_allow_html=True)
