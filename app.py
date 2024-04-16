@@ -569,7 +569,7 @@ def main():
             st.markdown('''## ................................€uros  ''')
             
     def menu4():
-        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles','Intégrations tieces','Technologies requises','Fournisseur Cloud selectionné','Livrables attendus']
+        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles','Intégrations tieces','Technologies requises','Fournisseur Cloud selectionné','Livrables attendus','Contraintes de temps et de budget','Validation et tests']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Exigences fonctionnelles":
@@ -630,15 +630,23 @@ def main():
 ''')            
             st.markdown(''' ##### 6. **Intégrations tierces** : ''') 
             st.markdown(''' ###### L'application SaaS devra être capable de s'intégrer avec d'autres systèmes tiers, tels que : ''') 
-            st.markdown(''' - Systèmes de gestion de la relation client (CRM).
-                            - Outils de marketing automation.
-                            - Systèmes de gestion des ressources humaines (RH).
+            st.markdown(''' - Systèmes de gestion de la relation client (SalesForce).
                             - Outils de business intelligence (BI).
                             - Plateformes de communication (e-mail, SMS, etc.).
                             - Systèmes de gestion des stocks et des commandes.
                             - Outils de reporting et d'analyse de données.''')        
             
-            
+            st.markdown(''' ##### 7. **Livrables attendus** : ''') 
+            st.markdown(''' ###### À la fin du projet, les livrables suivants sont attendus : ''') 
+            st.markdown('''
+                            - Code source de l'application.
+                            - Documentation technique détaillée.
+                            - Guide de déploiement pour l'infrastructure SaaS.
+                            - Documentation utilisateur pour les administrateurs et les clients.''')      
+                        
+                        
+                        
+                         
             
             
             
