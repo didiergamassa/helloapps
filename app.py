@@ -705,7 +705,12 @@ def main():
         elif choice == "Transports":
             st.title("Transports")
             url22="https://www.intel.fr/content/www/fr/fr/transportation/iot-in-railways.html#:~:text=Les%20technologies%20IoT%20permettent%20au,et%20permettre%20une%20maintenance%20pr%C3%A9dictive."
-            st.markdown(f'<a href="{url22}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le Transport"}</a>', unsafe_allow_html=True)     
+            st.markdown(f'<a href="{url22}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le Transport"}</a>', unsafe_allow_html=True) 
+            url24="https://www.lemondeinformatique.fr/actualites/lire-comment-rolls-royce-gere-l-iot-dans-l-aeronautique-85993.html"
+            st.markdown(f'<a href="{url24}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans l'aeronautique"}</a>', unsafe_allow_html=True)     
+            
+            url25="https://www.transportinfo.fr/internet-des-objets-iot-partout-et-pour-tout/"
+            st.markdown(f'<a href="{url25}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le transport routier"}</a>', unsafe_allow_html=True)  
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
