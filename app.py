@@ -691,10 +691,10 @@ def main():
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Flux Architecture Réseau":
             st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de Test </h1>", unsafe_allow_html=True)
-            st.title("L'environnement de test des composé des éléments suivants")
+            st.title("Environnement de test ")
             st.markdown(''' ##### 1. Solutions de stockage  : ''') 
         elif choice == "Environnement_de_Production":
-            st.title("Environnement_de_Production")   
+            st.title("Environnement de Production")   
     
     
     def menu7():
