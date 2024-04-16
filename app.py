@@ -816,7 +816,7 @@ def main():
         menu6()
     elif menu_selection == "7_Environnement_Test|Production":
         menu7()
-    elif menu_selection == "8_Environnement_Deploiement_Iot":
+    elif menu_selection == "8_Environnement_Deploiement_IoT":
         menu8()
     elif menu_selection == "9_Et_Quel_avenir_dans_5ans?":
         menu9()
