@@ -560,11 +560,11 @@ def main():
         choice=st.sidebar.selectbox(" ",menu3 )
         if choice == "Budget de conception du projet":
             st.title("Budget de conception du Saas_projet")
-            st.markdown('''## .........€uros  ''')
+            st.markdown('''## ................................€uros  ''')
             
         if choice == "Budget de deploiement du projet":
             st.title("Budget Test et Deploiement Saas  projet")
-            st.markdown('''## .........€uros  ''')
+            st.markdown('''## ................................€uros  ''')
         
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
