@@ -696,11 +696,26 @@ def main():
         elif choice == "Environnement_de_Production":
             st.title("Environnement de Production")   
     
-    
     def menu7():
-        menu7=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
-        st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
+        menu7=['Environnement_de_Déploiement']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de déploiement  </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu7 )        
+        if choice == "Environnement_de_Déploiement":
+            st.title("Environnement_de_Déploiement")
+            st.markdown(''' ##### 1. Solutions de stockage  : ''') 
+         
+    
+    
+    
+    
+    
+    
+    
+    
+    def menu8():
+        menu8=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
+        choice=st.sidebar.selectbox(" ",menu8 )        
         if choice == "Industries":
             st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
             st.markdown(''' ##### 1. Industries  : ''') 
@@ -761,7 +776,7 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Environnement_Test|Production","7_Et_quel_avenir_dans_5ans?"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Environnement_Test|Production","7_Environnement_Deploiement","8_Et_quel_avenir_dans_5ans?"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "1_Conception":
@@ -776,8 +791,11 @@ def main():
         menu5()
     elif menu_selection == "6_Environnement_Test|Production":
         menu6()
-    elif menu_selection == "7_Et_Quel_avenir_dans_5ans?":
+    elif menu_selection == "7_Environnement_Test|Production":
         menu7()
+       
+    elif menu_selection == "8_Et_Quel_avenir_dans_5ans?":
+        menu8()
     
 
 
