@@ -691,7 +691,7 @@ def main():
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
-            st.title(" DE Iot vers IIoT qui signifie l'internet des objets connectés pour l'industrie")
+            st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
             st.markdown(''' ##### 1. Industries  : ''')     
             
             
