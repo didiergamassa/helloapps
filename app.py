@@ -583,7 +583,7 @@ def main():
                         - Capacité à visualiser des données historiques et à générer des rapports analytiques.
                         - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.
                                 ''')
-            st.markdown(''' ##### 3.**Alertes et notifications** :
+            st.markdown(''' ##### 3.** Gestion des alertes et notifications** :
                         - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.).
                         - Envoi de notifications en temps réel par e-mail, SMS ou intégration à d'autres systèmes de notification.
                             ''')
@@ -592,7 +592,7 @@ def main():
                         - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.
                         - Possibilité de gérer les équipes et les clients au sein de l'application.
                             ''')
-            st.markdown(''' ##### 5. **Facturation et gestion des abonnements ** : Exigence optionnelle
+            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle
                         - Système de facturation intégré pour la gestion des abonnements clients.
                         - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
                                                 ''')
