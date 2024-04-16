@@ -571,6 +571,16 @@ def main():
     def menu4():
         menu4=['Cahier des charges du Saas_Projet']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
+        
+        
+        
+        
+        
+        
+        
+        
+        
+        
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
