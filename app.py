@@ -708,7 +708,7 @@ def main():
         menu2()
     elif menu_selection == "Menu 3":
         menu3()
-    elif menu_selection == "menu4":
+    elif menu_selection == "Menu 4":
         menu4()
     elif menu_selection == "Menu 5":
         menu5()
