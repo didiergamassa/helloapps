@@ -688,7 +688,7 @@ def main():
     
     def menu6():
         menu6=['Environnement_de_Test']
-        choice=st.sidebar.selectbox(" ",menu5 )        
+        choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Flux Architecture Réseau":
             st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de Test </h1>", unsafe_allow_html=True)
             st.title("L'environnement de test des composé des éléments suivants :")
