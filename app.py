@@ -713,14 +713,22 @@ def main():
             st.markdown(f'<a href="{url25}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le transport routier"}</a>', unsafe_allow_html=True)  
             
             url26="https://www.transportinfo.fr/internet-des-objets-iot-partout-et-pour-tout/"
-            st.markdown(f'<a href="{url26}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True) 
+            st.markdown(f'<a href="{url26}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True)
+            
+            url29="https://www.informatiquenews.fr/port-de-rotterdam-appel-a-liot-lia-55653"
+            st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans l'industrie maritime"}</a>', unsafe_allow_html=True) 
              
                
         elif choice=="Mines":
             st.title("Mines")
             url27="https://www.teamfrance-export.fr/infos-sectorielles/2346/2346-liot-devient-une-necessite-pour-le-secteur-minier"
             st.markdown(f'<a href="{url27}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True) 
+            
+            url28="https://www.worldsensing.com/fr/article/iot-remote-monitoring-of-open-pit-mines/"
+            st.markdown(f'<a href="{url28}" target="_blank">{"Cliquez ici pour visiter"+"www.Télésurveillance IoT des Mines"}</a>', unsafe_allow_html=True) 
     
+    
+            
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
