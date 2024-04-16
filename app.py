@@ -733,12 +733,11 @@ def main():
             st.title("Environnement_de_Déploiement")
             st.markdown(''' ##### 1. Solutions de stockage  : ''') 
          
- 
-    
+     
     def menu9():
         menu9=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu9 )        
+        choice=st.sidebar.selectbox(" ",menu9)        
         if choice == "Industries":
             st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
             st.markdown(''' ##### 1. Industries  : ''') 
@@ -799,7 +798,7 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Fournisseurs_Instruments_IoT ","4_Budget","5_Exigences_Fonctionnelles","6_Architecture_Réseau","7_Environnement_Test|Production","8_Environnement_Deploiement","9_Et_quel_avenir_dans_5ans?"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Fournisseurs_Instruments_IoT ","4_Budget","5_Exigences_Fonctionnelles","6_Architecture_Réseau","7_Environnement_Test|Production","8_Environnement_Deploiement","9_Et_Quel_Avenir_dans_5ans?"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "1_Conception":
@@ -818,7 +817,7 @@ def main():
         menu7()
     elif menu_selection == "8_Environnement_Deploiement_IoT":
         menu8()
-    elif menu_selection == "9_Et_Quel_avenir_dans_5ans?":
+    elif menu_selection == "9_Et_Quel_Avenir_dans_5ans?":
         menu9()
     
 
