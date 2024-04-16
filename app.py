@@ -584,7 +584,9 @@ def main():
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu5)
         if choice == "Exigences fonctionnelles":
-            st.title("Exigences fonctionnelles:Application SaaS de gestion de flotte d'objets connectés IoT")
+            st.title("Ex''igences fonctionnelles:Application SaaS de gestion de flotte d'objets connectés IoT")
+            st.markdown('''Ce cahier des charges décrit les spécifications fonctionnelles et non fonctionnelles pour le développement d'une application SaaS de gestion de flotte d'objets connectés IoT. L'application sera déployée dans un modèle commercial, offrant une solution centralisée pour surveiller, gérer et optimiser une grande variété d'objets IoT à distance.''')
+          
             st.markdown(''' ##### 1. **Gestion des appareils IoT** :
                         - Ajout, suppression et modification d'appareils IoT dans la flotte.
                         - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.).
