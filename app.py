@@ -601,8 +601,37 @@ def main():
                         - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
                             ''')
             st.markdown(''' #####      ''')
+        elif choice == "Exigences non fonctionnelles":
+            st.title("Exigences non fonctionnelles")
+            st.markdown(''' ##### En plus des fonctionnalités susmentionnées, l'application doit également répondre aux exigences non fonctionnelles suivantes :''')
+            st.markdown(''' ##### 1. **Sécurité et conformité** ::
+                        - Authentification sécurisée des utilisateurs avec prise en charge de l'authentification à deux facteurs.
+                        - Chiffrement des données sensibles en transit et au repos.
+                        - Conformité aux réglementations en matière de protection des données (GDPR, CCPA, etc.).''')
+                                                                  
+            st.markdown(''' ##### 2. **Scalabilité et disponibilité** :
+                        - Capacité à évoluer pour prendre en charge un nombre croissant d'appareils et de données.
+                        - Garantie de disponibilité élevée avec un temps de fonctionnement optimal. ''')
+           
+            st.markdown(''' ##### 3. ** **Performances** :
+                        - Temps de réponse rapide pour assurer une expérience utilisateur fluide.
+                        - Optimisation des requêtes et de la gestion des données pour minimiser les temps de latence.''')                                                                                                        - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.).
+                        
+            st.markdown(''' ##### 4. **Support client et maintenance** :
+                        -Mise en place d'un système de support client réactif via différents canaux (e-mail, chat en direct, etc.)
+                        -Maintenance régulière de l'application pour assurer sa stabilité et sa sécurité
+                            ''')
+            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel
+                        - Système de facturation intégré pour la gestion des abonnements clients.
+                        - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
+                                                ''')
+            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.
+                        - Personnalisation de l'interface utilisateur et du branding pour chaque client.
+                        - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
+                            ''')
             
-            
+            st.markdown(''' #####      ''')
+        
             
             
             
