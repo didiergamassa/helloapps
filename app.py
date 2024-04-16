@@ -561,7 +561,7 @@ def main():
     def menu3():
         menu3 = ['Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu2 )
+        choice=st.sidebar.selectbox(" ",menu3 )
         if choice == "Fournisseurs instruments IOT":
             st.title("Fournisseurs instruments IOT")
             st.markdown('''#### Technologie IOT : qu’est-ce que c’est ?''')
@@ -726,7 +726,7 @@ def main():
             st.title("Environnement de Production")   
     
     def menu8():
-        menu7=['Environnement_de_Déploiement']
+        menu8=['Environnement_de_Déploiement']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de déploiement  </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu8 )        
         if choice == "Environnement_de_Déploiement":
@@ -799,7 +799,7 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Fournisseurs_Instruments_IoT ","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Environnement_Test|Production","7_Environnement_Deploiement","8_Et_quel_avenir_dans_5ans?"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Fournisseurs_Instruments_IoT ","4_Budget","5_Exigences_Fonctionnelles","6_Architecture_Réseau","7_Environnement_Test|Production","8_Environnement_Deploiement","9_Et_quel_avenir_dans_5ans?"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "1_Conception":
