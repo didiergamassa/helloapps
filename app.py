@@ -592,11 +592,11 @@ def main():
                         - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.
                         - Possibilité de gérer les équipes et les clients au sein de l'application.
                             ''')
-            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle
+            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel
                         - Système de facturation intégré pour la gestion des abonnements clients.
                         - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
                                                 ''')
-            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle
+            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.
                         - Personnalisation de l'interface utilisateur et du branding pour chaque client.
                         - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
                             ''')
