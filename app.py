@@ -693,6 +693,11 @@ def main():
         if choice == "Industries":
             st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
             st.markdown(''' ##### 1. Industries  : ''') 
+            url21="https://iotjourney.orange.com/fr-FR/explorer/les-solutions-iot/iot-dans-l-industrie"
+            st.markdown(f'<a href="{url21}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot1 dans l'Industrie"}</a>', unsafe_allow_html=True)     
+            url23="https://youtu.be/DWhuPAR9N0A?si=Pgz79VXYP4S491hw"
+            st.markdown(f'<a href="{url21}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot2 dans l'Industrie"}</a>', unsafe_allow_html=True)    
+        
                 
         elif choice == "Transports":
             st.title("Transports")
