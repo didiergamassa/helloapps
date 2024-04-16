@@ -623,8 +623,8 @@ def main():
             
             st.markdown(''' ##### 5. **Technologie requises** : ''') 
             st.markdown(''' ###### L'application SaaS devra être développée en utilisant les technologies suivantes : ''') 
-            st.markdown(''' - Langage de programmation : [préciser le langage, par exemple, JavaScript, Python, etc.].
-                            - Frameworks : [préciser les frameworks, par exemple, React.js, Django, etc.].
+            st.markdown(''' - Langage de programmation : [ A préciser par le dev fullstack.].
+                            - Frameworks : [ A préciser par dev fullstack, par exemple, React.js, Django, etc.].
                             - Infrastructure cloud pour le déploiement SaaS (AWS, Azure, Google Cloud, etc.).
                             - Base de données : [préciser la base de données, par exemple, MySQL, MongoDB, etc.].
 ''')            
