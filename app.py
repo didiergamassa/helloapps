@@ -553,20 +553,9 @@ def main():
             st.markdown(f'<a href="{url14}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
         elif choice=="Fournisseurs Privé réseau LoRaWan":
             st.title("Fournisseurs Privé réseau LoRaWan") 
-            st.markdown(''' ##### Option non envisageable car à usage secret ou militaire . Clientèle non ciblé par le SaaS''')
-            from pdf2image import convert_from_path
-
-            st.title("Visualisation de PDF dans Streamlit")
-
-            # Nom du fichier PDF local
-            pdf_file = "ReseauPriveLorawan.pdf"
-
-            # Convertir le PDF en images
-            images = convert_from_path(pdf_file)
-
-            # Afficher les images dans l'application Streamlit
-            for i, image in enumerate(images):
-                st.image(image, caption=f"Page {i+1}", use_column_width=True)
+            st.markdown(''' ##### Offre  non envisageable dans notre catalogue mais à étudier pour des besoins spécifiques''')
+            url15="https://dataprint.fr/support/packs/flyer-reseau-prive-lorawan-dataprint-1.2-web.pdf "
+            st.markdown(f'<a href="{url15}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
                         
                
     def menu3():   
