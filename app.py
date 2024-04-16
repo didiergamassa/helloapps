@@ -692,7 +692,7 @@ def main():
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
             st.title(" DE Iot vers IIoT qui signifie l'internet des objets connectés pour l'industrie")
-            st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')     
+            st.markdown(''' ##### 1. Industries  : ''')     
             
             
     # Titre de la barre latérale
