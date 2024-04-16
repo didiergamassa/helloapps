@@ -569,14 +569,17 @@ def main():
             st.markdown('''## ................................€uros  ''')
             
     def menu4():
-        menu4=['Gestion des appareils','Visualisation des données']
+        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
+        if choice == "Exigences fonctionnelles":
+            st.title("Exigences fonctionnelles")
+            st.markdown('''## ................................€uros  ''')
         
         
         
-        
-        
-        
+        if choice == "Budget de conception du projet":
+            st.title("Budget de conception du Saas_projet")
+            st.markdown('''## ................................€uros  ''')
         
         
         
