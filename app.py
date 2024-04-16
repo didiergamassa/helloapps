@@ -654,7 +654,7 @@ def main():
                             - Documentation utilisateur pour les administrateurs et les clients.''')
         elif choice == "Contraintes Techniques":
             st.title("Contraintes Techniques")
-            st.markdown('''##### Sélection du  Concentrateur des signaux capteurs Iot déployés sur un site ''')
+            st.markdown('''##### Sélection de la Passerelle  des signaux capteurs Iot déployés sur un site ''')
             st.markdown('''##### 1. **Marque Multitech /Modèle MTCAP-L4E1-868-041A**/Protocole Lorawan?Ethernet et 4G /Cout estimati HT 420€ : ''')
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
