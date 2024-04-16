@@ -556,12 +556,41 @@ def main():
             st.markdown(''' ##### Offre  non envisageable dans notre catalogue mais à étudier pour des besoins spécifiques''')
             url15="https://dataprint.fr/support/packs/flyer-reseau-prive-lorawan-dataprint-1.2-web.pdf "
             st.markdown(f'<a href="{url15}" target="_blank">{"Cliquez ici pour visiter"+"www.lorawanréseauprive.com"}</a>', unsafe_allow_html=True)
+    
+    
+    def menu3():
+        menu3 = ['Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
+        choice=st.sidebar.selectbox(" ",menu2 )
+        if choice == "Fournisseurs instruments IOT":
+            st.title("Fournisseurs instruments IOT")
+            st.markdown('''#### Technologie IOT : qu’est-ce que c’est ?''')
+            st.markdown('''La Technologie IoT (Internet des objets) désigne les objets physiques (véhicules, électroménager, objets prêts-à-porter et autres) qui sont connectés à Internet pour transmettre des données en ligne.''')
+            st.markdown('''Bouteille de gaz industrielle qui informe le dépôt quand elle doit être remplacée, implant cardiaque qui permet à un médecin de surveiller son patient à distance ou encore réfrigérateur qui signale quand il doit être réapprovisionné, les applications IoT pour les entreprises et les consommateurs envahissent notre quotidien ''')
+            st.markdown('''##### Qui sont les fournisseurs des instruments IoT connus sur le marché français?? ''')  
+            st.markdown(''' ##### Ci-dessous une liste non exhaustive de fournisseurs :''')
+            st.markdown(''' ##### 1. Wateco ''')
+            st.markdown(''' ##### 2. Fludia''')
+            st.markdown(''' ##### 3. DataPrint ''')
+            st.markdown(''' ##### 4. Hydrélis''')
+        elif choice=="Fournisseurs instruments Santé et Environnement":
+            st.title("Fournisseurs instruments Santé et Environnement")
+            st.markdown('''#### Quel est la relation entre la santé et l'environnement ?''')
+            st.markdown(''' L’environnement est un déterminant majeur de la santé humaine, à travers différents facteurs : la qualité des milieux (air, eau, etc.), les nuisances véhiculées (bruit, insalubrité, etc.), les variations climatiques… Les activités humaines peuvent également avoir un impact sur la santé, notamment les activités industrielles, urbaines ou l’évolution des technologies. Il est démontré que certaines pathologies peuvent être déterminées, ou aggravées, par ces facteurs, et donc par l’environnement dans lequel l’homme évolue. Pour répondre à ces enjeux et aux attentes citoyennes, le Gouvernement agit à travers plusieurs leviers.''')
+            url13="https://biodiversite.gouv.fr/prendre-en-compte-le-lien-entre-sante-et-environnement-0"
+            st.markdown(f'<a href="{url13}" target="_blank">{"Cliquez ici pour visiter"+"www.prendre-en-compte-le-lien-entre-sante-et-environnement"}</a>', unsafe_allow_html=True)
+            st.markdown('''##### Qui sont les fournisseurs des instruments de santé et environnement en France ? ''')
+            st.markdown('''Un grand fournisseur mondial qui a été l employeur du promoteur de ce projet  pendant 12ans et qui lui a offert l'opportunité de dévelloper des compétences en maintenance des systèmes biomédicaux .Les voyages professionnels à travers le monde,en faveur de Thermo Fisher Scientific ,ont permis à Landry Didier GAMASSA d'évaluer les enjeux planétaires des changements climatiques .''')  
+            url14="https://www.thermofisher.com/fr/fr/home.html"
+            st.markdown(f'<a href="{url14}" target="_blank">{"Cliquez ici pour visiter"+"www.thermofisher.com"}</a>', unsafe_allow_html=True)
+         
+    
                         
                
-    def menu3():   
-        menu3 = ['Budget de conception du projet','Budget de deploiement du projet' ]
+    def menu4():   
+        menu4 = ['Budget de conception du projet','Budget de deploiement du projet' ]
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Budget Projet </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu3 )
+        choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Budget de conception du projet":
             st.title("Budget de conception du Saas_projet")
             st.markdown('''## ................................€uros  ''')
@@ -570,10 +599,10 @@ def main():
             st.title("Budget Test et Deploiement Saas  projet")
             st.markdown('''## ................................€uros  ''')
             
-    def menu4():
-        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
+    def menu5():
+        menu5=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu4)
+        choice=st.sidebar.selectbox(" ",menu5)
         if choice == "Exigences fonctionnelles":
             st.title("Exigences fonctionnelles")
             st.markdown(''' ##### 1. **Gestion des appareils IoT** :
@@ -678,44 +707,38 @@ def main():
             url20="https://www.watteco.fr/produit/capteur-vaqao-lorawan/"
             st.markdown(f'<a href="{url20}" target="_blank">{"Cliquez ici pour visiter"+"www.WATTECO_CAPTEUR_VAQAO"}</a>', unsafe_allow_html=True)
             
-    def menu5():
-        menu5=['Flux Architecture Réseau','Services Cloud intégré']
+    def menu6():
+        menu6=['Flux Architecture Réseau','Services Cloud intégré']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Architecture Réseau </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu5 )        
+        choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Flux Architecture Réseau":
             st.title("Flux Architecture Réseau")
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
-    def menu6():
-        menu6=['Environnement_de_Test','Environnement_de_Production']
+    def menu7():
+        menu7=['Environnement_de_Test','Environnement_de_Production']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de Test </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu6 )        
+        choice=st.sidebar.selectbox(" ",menu7 )        
         if choice == "Environnement_de_Test":
             st.title("Environnement de test ")
             st.markdown(''' ##### 1. Solutions de stockage  : ''') 
         elif choice == "Environnement_de_Production":
             st.title("Environnement de Production")   
     
-    def menu7():
+    def menu8():
         menu7=['Environnement_de_Déploiement']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Environnement de déploiement  </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu7 )        
+        choice=st.sidebar.selectbox(" ",menu8 )        
         if choice == "Environnement_de_Déploiement":
             st.title("Environnement_de_Déploiement")
             st.markdown(''' ##### 1. Solutions de stockage  : ''') 
          
+ 
     
-    
-    
-    
-    
-    
-    
-    
-    def menu8():
-        menu8=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
+    def menu9():
+        menu9=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu8 )        
+        choice=st.sidebar.selectbox(" ",menu9 )        
         if choice == "Industries":
             st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
             st.markdown(''' ##### 1. Industries  : ''') 
