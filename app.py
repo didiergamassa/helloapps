@@ -565,12 +565,15 @@ def main():
         if choice == "Budget de deploiement du projet":
             st.title("Budget Test et Deploiement Saas  projet")
             st.markdown('''## ................................€uros  ''')
-        
+            
+    def menu4():
+        menu4=['Cahier des charges du Saas_Projet']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option", ("Menu 1", "Menu 2","Menu 3"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option", ("Menu 1", "Menu 2","Menu 3","Menu 4"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "Menu 1":
@@ -579,7 +582,8 @@ def main():
         menu2()
     elif menu_selection == "Menu 3":
         menu3()
-    
+    elif menu_selection == "Menu 4":
+        menu4()
 
 
 
