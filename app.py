@@ -692,8 +692,12 @@ def main():
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
             st.title(" De l'expertise en  Iot vers une expertise en IIoT qui signifie l'internet des objets connectés pour l'industrie")
-            st.markdown(''' ##### 1. Industries  : ''')     
-            
+            st.markdown(''' ##### 1. Industries  : ''') 
+                
+        elif choice == "Transports":
+            st.title("Transports")
+            url22="https://www.intel.fr/content/www/fr/fr/transportation/iot-in-railways.html#:~:text=Les%20technologies%20IoT%20permettent%20au,et%20permettre%20une%20maintenance%20pr%C3%A9dictive."
+            st.markdown(f'<a href="{url22}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le Transport"}</a>', unsafe_allow_html=True)     
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
