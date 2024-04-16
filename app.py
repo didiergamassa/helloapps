@@ -600,7 +600,7 @@ def main():
                         - Personnalisation de l'interface utilisateur et du branding pour chaque client.
                         - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
                             ''')
-            st.markdown('''#####      ''')
+            st.markdown(''' #####      ''')
             
             
             
