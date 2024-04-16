@@ -687,7 +687,7 @@ def main():
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
     def menu6():
-        menu6=['Industries','Transports','Mines','Agriculture','Géolocalisation']
+        menu6=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
@@ -740,7 +740,11 @@ def main():
             st.title(" L'Afrique absente de l'Alliance LoRa!Le Cabinet-Apegg va impulser la participation de l'Afrique à la révolution Iot")
             url29="https://www.violainecherrier.com/wp-content/uploads/2020/03/Livre-Blanc-final-V2-Pages.pdf"
             st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.lnternet et Géolocalisation Une doublerévolution"}</a>', unsafe_allow_html=True) 
-            
+        
+        elif choice=="Secteur Pétrolier et Gazier":
+            st.title("Secteur Pétrolier et Gazier")
+            url29="https://www.cognizant.com/fr/fr/glossary/oil-gas-iot"
+            st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot pour le secteur pétrolier et gazier"}</a>', unsafe_allow_html=True)    
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
