@@ -680,7 +680,7 @@ def main():
             
     def menu5():
         menu5=['Flux Architecture Réseau','Services Cloud intégré']
-        st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
+        st.sidebar.markdown("<h1 style='font-weight: bold;'>Architecture Réseau </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu5 )        
         if choice == "Flux Architecture Réseau":
             st.title("Flux Architecture Réseau")
