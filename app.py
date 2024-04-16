@@ -583,7 +583,7 @@ def main():
                         - Capacité à visualiser des données historiques et à générer des rapports analytiques.
                         - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.
                                 ''')
-            st.markdown(''' ##### 3.** Gestion des alertes et notifications** :
+            st.markdown(''' ##### 3. ** Gestion des alertes et notifications** :
                         - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.).
                         - Envoi de notifications en temps réel par e-mail, SMS ou intégration à d'autres systèmes de notification.
                             ''')
