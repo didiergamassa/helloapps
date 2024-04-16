@@ -557,7 +557,7 @@ def main():
             st.title("Visualisation de PDF dans Streamlit")
 
             # Nom du fichier PDF local
-            pdf_file = "Res-Prive-LoRaWAN.pdf"
+            pdf_file = "ReseauPriveLorawan.pdf"
 
             # Intégration du fichier PDF à l'aide d'un élément <iframe>
             st.components.v1.html(f'<iframe src="{pdf_file}" width="800" height="600"></iframe>')
