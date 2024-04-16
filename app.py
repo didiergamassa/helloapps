@@ -571,9 +571,9 @@ def main():
             st.markdown('''## ................................€uros  ''')
             
     def menu4():
-        menu4_Exigences_FoncTtionnelles=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
+        menu4_Exigences_Fonctionnelles=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu4_Exigences_FoncTtionnelles)
+        choice=st.sidebar.selectbox(" ",menu4_Exigences_Fonctionnelles)
         if choice == "Exigences fonctionnelles":
             st.title("Exigences fonctionnelles")
             st.markdown(''' ##### 1. **Gestion des appareils IoT** :
