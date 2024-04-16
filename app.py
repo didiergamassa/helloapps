@@ -569,7 +569,7 @@ def main():
             st.markdown('''## ................................€uros  ''')
             
     def menu4():
-        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles']
+        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Exigences fonctionnelles":
@@ -652,7 +652,8 @@ def main():
                             - Documentation technique détaillée.
                             - Guide de déploiement pour l'infrastructure SaaS.
                             - Documentation utilisateur pour les administrateurs et les clients.''')
-            
+        elif choice == "Contraintes Techniques":
+            st.title("Contraintes Techniques")
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
