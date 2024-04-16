@@ -584,7 +584,7 @@ def main():
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu5)
         if choice == "Exigences fonctionnelles":
-            st.title("Exigences fonctionnelles")
+            st.title("Exigences fonctionnelles:Application SaaS de gestion de flotte d'objets connectés IoT")
             st.markdown(''' ##### 1. **Gestion des appareils IoT** :
                         - Ajout, suppression et modification d'appareils IoT dans la flotte.
                         - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.).
