@@ -704,7 +704,7 @@ def main():
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "1.Conception":
         menu1()
-    elif menu_selection == "fournisseurs 2":
+    elif menu_selection == "Fournisseurs 2":
         fournisseurs2()
     elif menu_selection == "Menu 3":
         menu3()
