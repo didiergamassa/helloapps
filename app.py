@@ -696,8 +696,6 @@ def main():
             
     
     
-    
-    
     def menu7():
         menu7=['Industries','Transports','Mines','Agriculture','Géolocalisation','Secteur Pétrolier et Gazier']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
@@ -762,7 +760,7 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Environnement de Test","7_Et_quel_avenir_dans_5ans?"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option",("1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Budget","4_Exigences_Fonctionnelles","5_Architecture_Réseau","6_Environnement_de_Test","7_Et_quel_avenir_dans_5ans?"))
 
     # Afficher le contenu en fonction de la sélection du menu
     if menu_selection == "1_Conception":
@@ -775,6 +773,8 @@ def main():
         menu4()
     elif menu_selection == "5_Architecture_Réseau":
         menu5()
+    elif menu_selection == "6_Environnement_de_Test":
+        menu6()
     elif menu_selection == "7_Et_Quel_avenir_dans_5ans?":
         menu7()
     
