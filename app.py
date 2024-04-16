@@ -570,10 +570,10 @@ def main():
             st.title("Budget Test et Deploiement Saas  projet")
             st.markdown('''## ................................€uros  ''')
             
-    def menu4_Exigences_Fonctionnelles():
-        menu4_Exigences_Fonctionnelles=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
+    def menu4():
+        menu4=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Cahier des charges Saas_Projet </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu4_Exigences_Fonctionnelles)
+        choice=st.sidebar.selectbox(" ",menu4)
         if choice == "Exigences fonctionnelles":
             st.title("Exigences fonctionnelles")
             st.markdown(''' ##### 1. **Gestion des appareils IoT** :
@@ -708,8 +708,8 @@ def main():
         menu2()
     elif menu_selection == "Menu 3":
         menu3()
-    elif menu_selection == "menu4_Exigences_Fonctionnelles":
-        menu4_Exigences_Fonctionnelles()
+    elif menu_selection == "menu4":
+        menu4()
     elif menu_selection == "Menu 5":
         menu5()
     elif menu_selection == "Menu 6":
