@@ -505,10 +505,10 @@ def main():
                 st.markdown(f'<a href="{url7}" target="_blank">{"Cliquez ici pour visiter"+"www.mission-transition-ecologique.org/"}</a>', unsafe_allow_html=True)
                 st.markdown(f'<a href="{url8}" target="_blank">{"Cliquez ici pour visiter"+"www.mcdonalds-transition-ecologique.org/"}</a>', unsafe_allow_html=True)                       
                 st.markdown(f'<a href="{url9}" target="_blank">{"Cliquez ici pour visiter"+"www.orki green bilan.org/"}</a>', unsafe_allow_html=True)                       
-    def menu2():
-        menu2 = ['Fournisseurs Public réseau LoRaWan','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement','Fournisseurs Privé réseau LoRaWan']
+    def fournisseurs2():
+        fournisseurs2 = ['Fournisseurs Public réseau LoRaWan','Fournisseurs instruments IOT','Fournisseurs instruments Santé et Environnement','Fournisseurs Privé réseau LoRaWan']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Fournisseurs Tech </h1>", unsafe_allow_html=True)
-        choice=st.sidebar.selectbox(" ",menu2 )
+        choice=st.sidebar.selectbox(" ",fournisseurs2 )
         if choice == "Fournisseurs Public réseau LoRaWan":
             st.title("Fournisseurs Public réseau LoRaWan")
             st.markdown('''#### Technologie LoRa : qu’est-ce que c’est ?''')
@@ -702,10 +702,10 @@ def main():
     menu_selection = st.sidebar.radio("Sélectionnez une option",("Menu 1","Menu 2","Menu 3","Menu 4","Menu 5","Menu 6"))
 
     # Afficher le contenu en fonction de la sélection du menu
-    if menu_selection == "Menu 1":
+    if menu_selection == "1.Conception":
         menu1()
-    elif menu_selection == "Menu 2":
-        menu2()
+    elif menu_selection == "fournisseurs 2":
+        fournisseurs2()
     elif menu_selection == "Menu 3":
         menu3()
     elif menu_selection == "Menu 4":
