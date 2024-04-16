@@ -574,11 +574,10 @@ def main():
         choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Exigences fonctionnelles":
             st.title("Exigences fonctionnelles")
-            st.markdown(''' ##### **Gestion des appareils IoT** :
+            st.markdown(''' ##### 1. **Gestion des appareils IoT** :
                         - Ajout, suppression et modification d'appareils IoT dans la flotte.
                         - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.).
                         - Surveillance en temps réel de l'état de chaque appareil IoT (connexion, batterie, capteurs, etc.). ''')                                                                   
-            
             st.markdown(''' ##### 2. **Visualisation des données** :
                         - Affichage en temps réel des données collectées par chaque appareil IoT.
                         - Capacité à visualiser des données historiques et à générer des rapports analytiques.
