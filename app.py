@@ -621,7 +621,7 @@ def main():
                         -Mise en place d'un système de support client réactif via différents canaux (e-mail, chat en direct, etc.)
                         -Maintenance régulière de l'application pour assurer sa stabilité et sa sécurité  ''')
             
-            st.markdown(''' ##### 5. **Technologie requises** : ''') 
+            st.markdown(''' ##### 5. **Technologies requises** : ''') 
             st.markdown(''' ###### L'application SaaS devra être développée en utilisant les technologies suivantes : ''') 
             st.markdown(''' - Langage de programmation : [ A préciser par le dev fullstack.].
                             - Frameworks : [ A préciser par dev fullstack, par exemple, React.js, Django, etc.].
