@@ -687,7 +687,7 @@ def main():
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
     def menu6():
-        menu6=['Industries','Transports','Mines','Agriculture']
+        menu6=['Industries','Transports','Mines','Agriculture','Géolocalisation']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
@@ -734,6 +734,13 @@ def main():
             st.title("Agriculture")
             url29="https://www.blog-qhse.com/internet-des-objets-iot-au-coeur-de-lagriculture-4.0"
             st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.liot-au-coeur-de-lagriculture"}</a>', unsafe_allow_html=True) 
+            
+        elif choice=="Géolocalisation":
+            st.title("Géolocalisation")
+            st.title(" L'Afrique absente de l'Alliance LoRa et le Cabinet-Apegg va impulser la participation de l'Afrique à la révolution Iot")
+            url29="https://www.violainecherrier.com/wp-content/uploads/2020/03/Livre-Blanc-final-V2-Pages.pdf"
+            st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.lnternet et Géolocalisation Une doublerévolution"}</a>', unsafe_allow_html=True) 
+            
             
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
