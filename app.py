@@ -687,7 +687,7 @@ def main():
             st.markdown(''' ##### 1. Flux Architecture Réseau  : ''')   
     
     def menu6():
-        menu6=['Industries','Transports']
+        menu6=['Industries','Transports','Mines']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Projection du Cabinet-Apegg sur 5ans </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu6 )        
         if choice == "Industries":
@@ -714,8 +714,13 @@ def main():
             
             url26="https://www.transportinfo.fr/internet-des-objets-iot-partout-et-pour-tout/"
             st.markdown(f'<a href="{url26}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True) 
-   
-   
+             
+               
+        elif choice=="Mines":
+            st.title("Mines")
+            url27="https://www.teamfrance-export.fr/infos-sectorielles/2346/2346-liot-devient-une-necessite-pour-le-secteur-minier"
+            st.markdown(f'<a href="{url27}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True) 
+    
     # Titre de la barre latérale
     st.sidebar.title("Présentation Projet APEGG")
 
