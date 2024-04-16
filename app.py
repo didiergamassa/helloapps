@@ -559,7 +559,7 @@ def main():
             st.title("Visualisation de PDF dans Streamlit")
 
             # Nom du fichier PDF local
-            pdf_file = "nom_du_fichier.pdf"
+            pdf_file = "ReseauPriveLorawan.pdf"
 
             # Convertir le PDF en images
             images = convert_from_path(pdf_file)
