@@ -123,7 +123,7 @@ def main():
         st.sidebar.markdown("<h1 style='font-weight: bold;'> Présentation de l'APEGG </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu0 )
         if choice == "Perspectives_du_Cabinet_APEGG":
-            st.markdown('''### Perspectives d'un Cabinet de Conseil en Transformation Digitale et d'Ingénieries pour la Transition Écologique Globale !''') 
+            st.markdown('''### Perspectives d'un Cabinet de Conseil en Transformation Digitale et d'Ingénierie pour la Transition Écologique Globale !''') 
             
             st.markdown('''######  Notre Mission
 
