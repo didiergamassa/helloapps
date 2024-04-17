@@ -141,7 +141,6 @@ def main():
             st.markdown(''' Environnement : Nous nous engageons à protéger et à restaurer l'environnement en proposant des solutions d'ingénierie environnementale intégrées, visant à réduire la pollution, à préserver les ressources naturelles et à promouvoir la durabilité         ''')
             
             st.markdown('''Maintenance : Enfin, notre expertise en maintenance permet à nos clients de garantir le bon fonctionnement de leurs infrastructures et équipements, en minimisant les temps d'arrêt, en optimisant les coûts et en prolongeant la durée de vie des actifs.''')
-            ''')
             
             
             
