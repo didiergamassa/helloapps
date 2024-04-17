@@ -623,7 +623,7 @@ def main():
             st.markdown('''## ................................€uros  ''')
         
         elif choice == "Budget Validation des Tests":
-            st.title("Budget Validation des Tests unitaires et fonctionnels Saas_projet")
+            st.title("Budget Validation des Tests Unitaires et Fonctionnels")
             st.markdown('''## 1000.€uros  ''')
                     
         elif choice == "Budget de deploiement du projet":
