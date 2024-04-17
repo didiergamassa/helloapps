@@ -125,11 +125,11 @@ def main():
         if choice == "Perspectives_du_Cabinet_APEGG":
             st.markdown('''### Perspectives d'un Cabinet de Conseil en Transformation Digitale et d'Ingénierie pour la Transition Écologique Globale !''') 
             
-            st.markdown('''######  Notre Mission
+            st.markdown('''#####  Notre Mission
 
             Au sein du paysage en constante évolution de la transformation digitale et de l'ingénierie pour la transition écologique, L'APEGG s'engage à fournir des solutions innovantes et durables pour répondre aux défis complexes de notre époque. Notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté   ''')
 
-            st.markdown(''' ###### Notre Expertise ''')
+            st.markdown(''' ##### Notre Expertise ''')
 
             st.markdown('''Transformation Digitale : Nous proposons des stratégies sur mesure pour guider nos clients à travers leur transformation digitale, en optimisant leurs processus métier et en exploitant pleinement les technologies émergentes telles que l'IA, le cloud computing et l'IoT.
                ''')
@@ -141,7 +141,7 @@ def main():
             ''')
 
 
-            st.markdown(''' ######  Notre Engagement ''')        
+            st.markdown(''' #####  Notre Engagement ''')        
 
             st.markdown('''Chez l'APEGG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
              ''')
