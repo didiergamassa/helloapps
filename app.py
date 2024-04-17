@@ -770,7 +770,7 @@ def main():
             url32="https://youtu.be/9BKvzyLGXoQ"
             st.markdown(f'<a href="{url32}" target="_blank">{"Cliquez ici pour visiter"+"www.PrisenMainInterfaceLoraOrange"}</a>', unsafe_allow_html=True)  
             
-            st.markdown(''' Par contre la plate forme the thingsindustries offre aussi un abonnement gratuit mais moyennant une carte bancaire. Carte bancaire = payement accidentel donc il faut rester prudent''') 
+            st.markdown(''' La plate forme the thingsindustries offre aussi les memes fonctyionnalités mais moyennant une carte bancaire. Carte bancaire = payement accidentel donc il faut rester prudent''') 
             st.markdown(''' ##### 2. Base de données de test intégré dans la plate forme Orange Live Objects  :''')
             st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
             st.markdown(''' ##### 3. Capteur IoT de test  :  A commander chez Fludia ou Watteco  ''')
