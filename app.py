@@ -118,6 +118,53 @@ def visualize_consumption(data):
 
 
 def main():
+    def menu0():
+        menu0 = ['Introduction']
+        st.sidebar.markdown("<h1 style='font-weight: bold;'> Présentation de l'APEGG </h1>", unsafe_allow_html=True)
+        choice=st.sidebar.selectbox(" ",menu0 )
+        if choice=="Introduction":
+            st.markdown('''### Conception d'un Cabinet Français de Conseil en Transformation Digitale et d'Ingénieries pour la Transition Écologique Globale !''') 
+            
+            st.markdown('''######  Notre Mission
+
+            Au sein du paysage en constante évolution de la transformation digitale et de l'ingénierie pour la transition écologique, [Nom du Cabinet] s'engage à fournir des solutions innovantes et durables pour répondre aux défis complexes de notre époque. Notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté   ''')
+
+            st.markdown(''' ###### Notre Expertise
+
+            Transformation Digitale: Nous proposons des stratégies sur mesure pour guider nos clients à travers leur transformation digitale, en optimisant leurs processus métier et en exploitant pleinement les technologies émergentes telles que l'IA, le cloud computing et l'IoT.
+
+            Ingénierie Data: Grâce à notre expertise en analyse de données avancée et en science des données, nous aidons nos clients à tirer parti de leurs données pour prendre des décisions éclairées, améliorer leur efficacité opérationnelle et développer de nouveaux produits et services.
+
+            Énergie: Nous travaillons avec nos clients pour concevoir et mettre en œuvre des solutions énergétiques durables, allant des énergies renouvelables à l'efficacité énergétique, afin de réduire leur empreinte carbone et de favoriser la transition vers une économie à faible émission de carbone.
+
+            Santé: Dans le domaine de la santé, nous fournissons des solutions innovantes basées sur les données pour améliorer les soins de santé, optimiser les processus cliniques et promouvoir le bien-être des patients et des professionnels de la santé.
+
+            Environnement: Nous nous engageons à protéger et à restaurer l'environnement en proposant des solutions d'ingénierie environnementale intégrées, visant à réduire la pollution, à préserver les ressources naturelles et à promouvoir la durabilité.
+
+            Maintenance: Enfin, notre expertise en maintenance permet à nos clients de garantir le bon fonctionnement de leurs infrastructures et équipements, en minimisant les temps d'arrêt, en optimisant les coûts et en prolongeant la durée de vie des actifs.
+
+            Notre Engagement
+
+            Chez l'APEGG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
+
+            Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à transformer votre entreprise pour un avenir meilleur. ''')
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
+            
     def menu1():
         menu1 = ['Introduction','Environnement_d_un_Projet Smart Building','Audit Energie + Deploiement Iot','Solutions Iot + Plan Comptage','Bilan Conso Energies(Elec/Gaz/Eau)',"Diagnostic Performance Energétique","Bilan GES(Gaz à effet de serre)"," Axes d'amélioration identifiés",'Visu Suivi des KPI Conso(Elec/Gaz/Eau)','Visu objectifs Réduction Conso Energies','Info + contacts utiles sites']
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu contextuel</h1>", unsafe_allow_html=True)
