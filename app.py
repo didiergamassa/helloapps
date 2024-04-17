@@ -647,7 +647,7 @@ def main():
             st.markdown(''' ##### 2. ** Gestion de la visualisation des données** : ''')
             st.markdown('''         - Affichage en temps réel des données collectées par chaque appareil IoT.''')
             st.markdown('''         - Capacité à visualiser des données historiques et à générer des rapports analytiques.''')
-            st.markdonw('''         - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.''')
+            st.markdown('''         - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.''')
             
             st.markdown(''' ##### 3. ** Gestion des alertes et notifications** :''')
             st.markdown('''            - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.''')
