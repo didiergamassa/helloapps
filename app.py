@@ -154,8 +154,7 @@ def main():
             
             st.markdown(''' ######  Une Vision enracinée dans l'Engagement: ''')
 
-            st.markdown('''  Chez L'APEGG, nous nous engageons à perpétuer l'héritage du Dr. Alain Pensé GAMASSA en étant des agents de changement pour la transition écologique. Notre vision est de créer un monde où l'innovation technologique et l'ingénierie sont mises au service de la préservation de notre planète et de l'amélioration de la qualité de vie pour tous.
-  ''')            
+            st.markdown(''' Chez L'APEGG, nous nous engageons à perpétuer l'héritage du Dr. Alain Pensé GAMASSA en étant des agents de changement pour la transition écologique. Notre vision est de créer un monde où l'innovation technologique et l'ingénierie sont mises au service de la préservation de notre planète et de l'amélioration de la qualité de vie pour tous. ''')            
         
             st.markdown(''' ###### Bâtir sur les Fondations de l'Innovation et de la Durabilité: ''')  
 
