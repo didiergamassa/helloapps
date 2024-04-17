@@ -842,10 +842,10 @@ def main():
     st.sidebar.title("Présentation Projet APEGG")
 
     # Ajouter les éléments du menu
-    menu_selection = st.sidebar.radio("Sélectionnez une option",("0_Introduction","1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Fournisseurs_Instruments_IoT ","4_Budget","5_Cahier des Charges _SaaS","6_Architecture_Réseau","7_Environnement_Test|Production","8_Environnement_Deploiement","9_Et_Quel_Avenir_dans_5ans?"))
+    menu_selection = st.sidebar.radio("Sélectionnez une option",("0_Perspectives_du_Cabinet_APEGG","1_Conception","2_Fournisseurs_Réseau_LoRaWan","3_Fournisseurs_Instruments_IoT ","4_Budget","5_Cahier des Charges _SaaS","6_Architecture_Réseau","7_Environnement_Test|Production","8_Environnement_Deploiement","9_Et_Quel_Avenir_dans_5ans?"))
 
     # Afficher le contenu en fonction de la sélection du menu
-    if menu_selection == "0_Introduction":
+    if menu_selection == "0_Perspectives_du_Cabinet_APEGG":
         menu0()
     elif menu_selection == "1_Conception":
         menu1()
