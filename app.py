@@ -143,11 +143,6 @@ def main():
             st.markdown('''Maintenance : Enfin, notre expertise en maintenance permet à nos clients de garantir le bon fonctionnement de leurs infrastructures et équipements, en minimisant les temps d'arrêt, en optimisant les coûts et en prolongeant la durée de vie des actifs.''')
             ''')
             
-            st.markdown(''' ##### Notre Engagement ''')
-                       
-            st.markdown('''Chez l'APEGG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
-             ''')
-            st.markdown('''Contactez-nous dès aujourd'hui pour découvrir comment nous pouvons vous aider à transformer votre entreprise pour un avenir meilleur. ''')
             
             
             st.markdown(''' ##### Notre Vision ''')
