@@ -765,7 +765,15 @@ def main():
         choice=st.sidebar.selectbox(" ",menu7 )        
         if choice == "Environnement_de_Test":
             st.title("Environnement de test ")
-            st.markdown(''' ##### 1. Solutions de stockage  : ''') 
+            st.markdown(''' ##### L'environnement de test est constitué des dispositifs suivants  : ''')
+            st.markdown(''' ##### 1. Plateforme de collecte et traitement données Iot   ''')
+            url30="https://www.thethingsindustries.com/stack/plans/"
+            st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.LoRawanServeur Réseau"}</a>', unsafe_allow_html=True)    
+            
+            st.markdown(''' ##### 2. Base de données de test  : A  définir avec l'équipe dev fullstack  :                    ''')
+            st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
+            st.markdown(''' ##### 3. Capteur IoT de test  :                               ''')
+            st.markdown(''' ##### 4. Passerelle de test  :                                ''')
         elif choice == "Environnement_de_Production":
             st.title("Environnement de Production")   
     
