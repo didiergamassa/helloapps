@@ -154,16 +154,16 @@ def main():
             
             st.markdown(''' ######  Une Vision enracinée dans l'Engagement: ''')
 
-            st.markdown(''' ####### Chez L'APEGG, nous nous engageons à perpétuer l'héritage du Dr. Alain Pensé GAMASSA en étant des agents de changement pour la transition écologique. Notre vision est de créer un monde où l'innovation technologique et l'ingénierie sont mises au service de la préservation de notre planète et de l'amélioration de la qualité de vie pour tous.
+            st.markdown('''  Chez L'APEGG, nous nous engageons à perpétuer l'héritage du Dr. Alain Pensé GAMASSA en étant des agents de changement pour la transition écologique. Notre vision est de créer un monde où l'innovation technologique et l'ingénierie sont mises au service de la préservation de notre planète et de l'amélioration de la qualité de vie pour tous.
   ''')            
         
             st.markdown(''' ###### Bâtir sur les Fondations de l'Innovation et de la Durabilité: ''')  
 
-            st.markdown(''' ####### Nous croyons en une approche intégrée de la transformation digitale et de l'ingénierie, où chaque solution est conçue avec soin pour minimiser notre empreinte environnementale tout en maximisant notre impact positif. Inspirés par le Dr. Alain Pensé GAMASSA, nous sommes déterminés à repousser les limites de l'innovation pour façonner un avenir durable.''')
+            st.markdown('''  Nous croyons en une approche intégrée de la transformation digitale et de l'ingénierie, où chaque solution est conçue avec soin pour minimiser notre empreinte environnementale tout en maximisant notre impact positif. Inspirés par le Dr. Alain Pensé GAMASSA, nous sommes déterminés à repousser les limites de l'innovation pour façonner un avenir durable.''')
 
             st.markdown(''' ######  S'Engager dans une Quête Collective: ''')
 
-            st.markdown(''' ####### Rejoignez-nous dans notre quête pour un avenir meilleur, où les valeurs d'innovation, de durabilité et d'engagement sont au cœur de chaque action. Ensemble, nous pouvons honorer l'héritage du Dr. Alain Pensé GAMASSA en laissant derrière nous un monde meilleur pour les générations futures''')
+            st.markdown(''' Rejoignez-nous dans notre quête pour un avenir meilleur, où les valeurs d'innovation, de durabilité et d'engagement sont au cœur de chaque action. Ensemble, nous pouvons honorer l'héritage du Dr. Alain Pensé GAMASSA en laissant derrière nous un monde meilleur pour les générations futures''')
                                     
             
             
