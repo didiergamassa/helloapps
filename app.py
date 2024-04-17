@@ -172,7 +172,7 @@ def main():
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu contextuel</h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu1 )
         if choice=="Introduction":
-            st.markdown('''### Conception d'un Cabinet de Conseil en Transformation Digitale et d'Ingénieries pour la Transition Écologique Globale!''') 
+            st.markdown('''### Conception d'un Cabinet de Conseil en Transformation Digitale et d'Ingénierie pour la Transition Écologique Globale!''') 
             
             st.markdown(f"<u><h4><b> Promoteur du projet: </u></h4></b>", unsafe_allow_html=True)
             st.markdown(''' ######  Qui suis je? Je suis Landry Didier GAMASSA,mon parcours et experiences me présentent, comme un Data Scientist,Developpeur Python ,Spécialiste en Energie,Ingénieur Génaraliste en Génie Electrique de l'Université des Sciences et Technologies de Lille ,Ingénieur Biomédical par expertise acquise sur 12ans de service auprès du premier groupe mondial de fabrication d'équipement de laboratoire (Thermo Fisher Scientific),Chef Projet Informatique certifié par l'Institut Poly Informatique de Paris ,Expert Asset Maintenance Management et Maitre d'Ouvrages des Technologies exploités  dans tout secteur industriel .Très admiratif des grands batisseurs de notre planète,je suis passioné par les sciences et technologies et milite pour des innovations technologiques respectueuses de l'environnement et au service du bien etre de l'humanité .''')    
