@@ -759,12 +759,12 @@ def main():
             st.markdown(''' ##### L'environnement de test est constitué des dispositifs suivants  : ''')
             st.markdown(''' ##### 1. Plateforme de collecte et traitement données Iot Orange Live Objects  :''')
             url31="https://documentscontractuels.orange.fr/obs-mobilite-entreprises_ds_4252.pdf"
-            st.markdown(f'<a href="{url31}" target="_blank">{"Cliquez ici pour visiter"+"www.Orange Live Objects"}</a>', unsafe_allow_html=True)
-
+            
             url30="https://www.thethingsindustries.com/stack/plans/"
             st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.Serveurthethingsindustries"}</a>', unsafe_allow_html=True)   
             
             st.markdown(''' Pendant 1an ,Equipe DEV APEGG aura la possibilité de faire des Tests sur un deploiement de 10 Capteurs gratuitement sur la plateforme Orange Live Objects par le lien suivant:  ''')  
+            st.markdown(f'<a href="{url31}" target="_blank">{"Cliquez ici pour visiter"+"www.Orange Live Objects"}</a>', unsafe_allow_html=True)
             st.markdown(''' Un compte client ouvert sur la plateforme Iot Orange au nom de APEGG avec Identifiant = dgamassa.thermo@orange.fr  et mot de passe à transmettre en OFF à l'équipe Dev APEGG''')  
             st.markdown(''' La prise en main de Lora sur l'interfafe Iot d'Orange est étayé sur la video accessible au lien suivant  :''')
             url32="https://youtu.be/9BKvzyLGXoQ"
