@@ -218,7 +218,7 @@ def main():
             st.markdown(''' ###### Le portefeuille des clients potentiels est constitué de deux sous-ensembles:''')
             st.markdown(''' ###### 1. Le portefeuille privé constitué des propriétaires et gestionnaires d'actif fonciers français dont la liste non exhaustive est la suivante:''')
             url10="https://www.linkfinance.fr/classement-entreprises-Gestion-d-actifs-6.html?page=8"
-            st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.Liste_entreprises-Gestion d'actifs"}</a>', unsafe_allow_html=True)
+            st.markdown(f'<a href="{url10}" target="_blank">{"Cliquez ici pour visiter"+"www.Liste_entreprises"}</a>', unsafe_allow_html=True)
             st.markdown(''' ###### 2. Le portefeuille public constitué des collectivités et territoire français''')                                                                
             st.markdown(''' ###### Une collaboration sera à privilégier  avec des organismes publics spécialisés dans l'accompagnement des acteurs territoriaux dans la realisation de leurs projets.''') 
             url11="https://www.cerema.fr/fr/collectivites-territoriales"
