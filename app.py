@@ -134,11 +134,14 @@ def main():
                ''')
             st.markdown(''' Ingénierie Data : Grâce à notre expertise en analyse de données avancée et en science des données, nous aidons nos clients à tirer parti de leurs données pour prendre des décisions éclairées, améliorer leur efficacité opérationnelle et développer de nouveaux produits et services.
             ''')
-            st.markdown(''' Énergie :  Nous travaillons avec nos clients pour concevoir et mettre en œuvre des solutions énergétiques durables, allant des énergies renouvelables à l'efficacité énergétique, afin de réduire leur empreinte carbone et de favoriser la transition vers une économie à faible émission de carbone.
+            st.markdown(''' Énergie : Nous travaillons avec nos clients pour concevoir et mettre en œuvre des solutions énergétiques durables, allant des énergies renouvelables à l'efficacité énergétique, afin de réduire leur empreinte carbone et de favoriser la transition vers une économie à faible émission de carbone.
             ''')
             st.markdown(''' Santé : Dans le domaine de la santé, nous fournissons des solutions innovantes basées sur les données pour améliorer les soins de santé, optimiser les processus cliniques et promouvoir le bien-être des patients et des professionnels de la santé.
             ''')
-
+            st.markdown(''' Environnement :Nous nous engageons à protéger et à restaurer l'environnement en proposant des solutions d'ingénierie environnementale intégrées, visant à réduire la pollution, à préserver les ressources naturelles et à promouvoir la durabilité.
+            ''')
+            st.markdown('''Maintenance : Enfin, notre expertise en maintenance permet à nos clients de garantir le bon fonctionnement de leurs infrastructures et équipements, en minimisant les temps d'arrêt, en optimisant les coûts et en prolongeant la durée de vie des actifs.''')
+            ''')
             st.markdown(''' #####  Notre Engagement ''')        
 
             st.markdown('''Chez l'APEGG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
