@@ -621,8 +621,12 @@ def main():
         if choice == "Budget de conception du projet":
             st.title("Budget de conception du Saas_projet")
             st.markdown('''## ................................€uros  ''')
-            
-        if choice == "Budget de deploiement du projet":
+        
+        elif choice == "Budget Validation des Tests":
+            st.title("Budget Validation des Tests")
+            st.markdown('''## 1000.€uros  ''')
+                    
+        elif choice == "Budget de deploiement du projet":
             st.title("Budget Test et Deploiement Saas  projet")
             st.markdown('''## ................................€uros  ''')
             
