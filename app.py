@@ -807,7 +807,7 @@ def main():
             url22="https://www.intel.fr/content/www/fr/fr/transportation/iot-in-railways.html#:~:text=Les%20technologies%20IoT%20permettent%20au,et%20permettre%20une%20maintenance%20pr%C3%A9dictive."
             st.markdown(f'<a href="{url22}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans le Transport"}</a>', unsafe_allow_html=True) 
             url24="https://www.lemondeinformatique.fr/actualites/lire-comment-rolls-royce-gere-l-iot-dans-l-aeronautique-85993.html"
-            st.markdown(f'<a href="{url24}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans l'aeronautique"}</a>', unsafe_allow_html=True)     
+            st.markdown(f'<a href="{url24}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot_et_aeronautique"}</a>', unsafe_allow_html=True)     
             
             url30="https://www.globalsign.com/fr/blog/iot-moteur-du-secteur-aerien"
             st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot moteur du secteur aerien"}</a>', unsafe_allow_html=True)  
@@ -819,7 +819,7 @@ def main():
             st.markdown(f'<a href="{url26}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans la Gestion et Télématique des Parc"}</a>', unsafe_allow_html=True)
             
             url29="https://www.informatiquenews.fr/port-de-rotterdam-appel-a-liot-lia-55653"
-            st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot dans l'industrie maritime"}</a>', unsafe_allow_html=True) 
+            st.markdown(f'<a href="{url29}" target="_blank">{"Cliquez ici pour visiter"+"www.Iot_et_industrie maritime"}</a>', unsafe_allow_html=True) 
              
                
         elif choice=="Mines":
