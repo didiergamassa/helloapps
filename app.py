@@ -158,7 +158,7 @@ def main():
             
             st.markdown(''' ######  S'Engager dans une Quête Collective: ''')
 
-            st.markdown(''' Rejoignez-nous dans notre quête pour un avenir meilleur, où les valeurs d'innovation, de durabilité et d'engagement sont au cœur de chaque action. Ensemble, nous pouvons honorer l'héritage du Dr. Alain Pensé GAMASSA en laissant derrière nous un monde meilleur pour les générations futures''')
+            st.markdown(''' Rejoignez-nous dans notre quête pour un avenir meilleur, où les valeurs d'innovation, de durabilité et d'engagement sont au cœur de chaque action. Ensemble, nous pouvons honorer l'héritage du Dr. Alain Pensé GAMASSA en laissant derrière nous un monde meilleur pour les générations futures.''')
                                     
             
             
