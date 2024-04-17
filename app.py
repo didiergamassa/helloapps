@@ -757,14 +757,19 @@ def main():
         if choice == "Environnement_de_Test":
             st.title("Environnement de test ")
             st.markdown(''' ##### L'environnement de test est constitué des dispositifs suivants  : ''')
-            st.markdown(''' ##### 1. Plateforme de collecte et traitement données Iot   ''')
+            st.markdown(''' ##### 1. Plateforme de collecte et traitement données Iot Orange Live Objects  :''')
+            url31="https://documentscontractuels.orange.fr/obs-mobilite-entreprises_ds_4252.pdf"
+            st.markdown(f'<a href="{url31}" target="_blank">{"Cliquez ici pour visiter"+"www.Orange Live Objects"}</a>', unsafe_allow_html=True)
+
             url30="https://www.thethingsindustries.com/stack/plans/"
-            st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.LoRawanServeur Réseau"}</a>', unsafe_allow_html=True)    
+            st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.Serveurthethingsindustries"}</a>', unsafe_allow_html=True)   
             
-            st.markdown(''' ##### 2. Base de données de test  : A  définir avec l'équipe dev fullstack  :                    ''')
+            st.markdown(''' Pendant 1an ,nous avons la possibilité de faire des Tests sur un deploiement de 10 Capteurs gratuitement sur la plateforme Orange Live Objects''') 
+            st.markdown(''' Par contre la plate forme the thingsindustries offre aussi un abonnement gratuit mais moyennant une carte bancaire''') 
+            st.markdown(''' ##### 2. Base de données de test intégré dans la plate forme Orange Live Objects  :''')
             st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
-            st.markdown(''' ##### 3. Capteur IoT de test  :                               ''')
-            st.markdown(''' ##### 4. Passerelle Iot de test  :                                ''')
+            st.markdown(''' ##### 3. Capteur IoT de test  :  A commander chez Fludia ou Watteco  ''')
+            st.markdown(''' ##### 4. Passerelle Iot de test  :  A commander chez Dataprint      ''')
         elif choice == "Environnement_de_Production":
             st.title("Environnement de Production")   
     
