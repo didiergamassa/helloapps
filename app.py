@@ -775,6 +775,9 @@ def main():
             st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
             st.markdown(''' ##### 3. Capteur IoT de test  :  A commander chez Fludia ou Watteco  ''')
             st.markdown(''' ##### 4. Passerelle Iot de test  :  A commander chez Dataprint      ''')
+            url33="https://multitech.com/wp-content/uploads/s000727-mPower-Edge-Intelligence-Conduit-AEP-software-guide.pdf"
+            st.markdown(f'<a href="{url33}" target="_blank">{"Cliquez ici pour visiter"+"www.Notice_Configuration_Passerelle_Multitech"}</a>', unsafe_allow_html=True)   
+        
         elif choice == "Environnement_de_Production":
             st.title("Environnement de Production")   
     
