@@ -764,7 +764,7 @@ def main():
             st.markdown(''' ##### 2. Base de données de test  : A  définir avec l'équipe dev fullstack  :                    ''')
             st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
             st.markdown(''' ##### 3. Capteur IoT de test  :                               ''')
-            st.markdown(''' ##### 4. Passerelle de test  :                                ''')
+            st.markdown(''' ##### 4. Passerelle Iot de test  :                                ''')
         elif choice == "Environnement_de_Production":
             st.title("Environnement de Production")   
     
