@@ -640,29 +640,29 @@ def main():
             st.title("Exigences fonctionnelles:Application SaaS de gestion de flotte d'objets connectés IoT")
             st.markdown(''' ###### Ce cahier des charges décrit les spécifications fonctionnelles et non fonctionnelles pour le développement d'une application SaaS de gestion de flotte d'objets connectés IoT. L'application sera déployée dans un modèle commercial, offrant une solution centralisée pour surveiller, gérer et optimiser une grande variété d'objets IoT à distance.''')
           
-            st.markdown(''' ##### 1. **Gestion des appareils IoT** :''')
+            st.markdown(''' ##### 1. Gestion des appareils IoT** :''')
             st.markdown(''' - Ajout, suppression et modification d'appareils IoT dans la flotte.''')
             st.markdown('''         - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.''')
             st.markdown('''         - Surveillance en temps réel de l'état de chaque appareil IoT (connexion, batterie, capteurs, etc.). ''')                                                                   
-            st.markdown(''' ##### 2. ** Gestion de la visualisation des données** : ''')
+            st.markdown(''' ##### 2.  Gestion de la visualisation des données : ''')
             st.markdown('''         - Affichage en temps réel des données collectées par chaque appareil IoT.''')
             st.markdown('''         - Capacité à visualiser des données historiques et à générer des rapports analytiques.''')
             st.markdown('''         - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.''')
             
-            st.markdown(''' ##### 3. ** Gestion des alertes et notifications** :''')
+            st.markdown(''' ##### 3.  Gestion des alertes et notifications** :''')
             st.markdown('''            - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.''')
             st.markdown('''            - Envoi de notifications en temps réel par e-mail, SMS ou intégration à d'autres systèmes de notification.''')
             st.markdown('''            - Possibilité de définir des règles d'automatisation pour les alertes et les actions associées.''')
-            st.markdown(''' ##### 4. **Gestion des utilisateurs et des rôles** :''')
+            st.markdown(''' ##### 4. Gestion des utilisateurs et des rôles** :''')
             st.markdown('''            - Création de comptes utilisateur avec différents niveaux d'accès.''')
             st.markdown('''            - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.''')
             st.markdown('''             - Possibilité de gérer les équipes et les clients au sein de l'application.''')
             st.markdown('''                ''')
-            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel''')
+            st.markdown(''' ##### 5. Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel''')
             st.markdown('''            - Système de facturation intégré pour la gestion des abonnements clients.''')
             st.markdown('''            - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.''')
                                                 
-            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.''')
+            st.markdown(''' ##### 6. Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.''')
             st.markdown('''            - Personnalisation de l'interface utilisateur et du branding pour chaque client.''')
             st.markdown( '''           - Prise en charge de la personnalisation des rapports, des alertes et des notifications.''')
                         
@@ -675,26 +675,26 @@ def main():
                         - Chiffrement des données sensibles en transit et au repos.
                         - Conformité aux réglementations en matière de protection des données (GDPR, CCPA, etc.).''')
                                                                   
-            st.markdown(''' ##### 2. **Scalabilité et disponibilité** :
+            st.markdown(''' ##### 2. Scalabilité et disponibilité** :
                         - Capacité à évoluer pour prendre en charge un nombre croissant d'appareils et de données.
                         - Garantie de disponibilité élevée avec un temps de fonctionnement optimal. ''')
            
-            st.markdown(''' ##### 3. ** **Performances** :
+            st.markdown(''' ##### 3. Performances :
                         - Temps de réponse rapide pour assurer une expérience utilisateur fluide.
                         - Optimisation des requêtes et de la gestion des données pour minimiser les temps de latence.''') 
                         
-            st.markdown(''' ##### 4. **Support client et maintenance** :
+            st.markdown(''' ##### 4.  Support client et maintenance :
                         -Mise en place d'un système de support client réactif via différents canaux (e-mail, chat en direct, etc.)
                         -Maintenance régulière de l'application pour assurer sa stabilité et sa sécurité  ''')
             
-            st.markdown(''' ##### 5. **Technologies requises** : ''') 
+            st.markdown(''' ##### 5.  Technologies requises : ''') 
             st.markdown(''' ###### L'application SaaS devra être développée en utilisant les technologies suivantes : ''') 
             st.markdown(''' - Langage de programmation : [ A préciser par le dev fullstack.].
                             - Frameworks : [ A préciser par dev fullstack, par exemple, React.js, Django, etc.].
                             - Infrastructure cloud pour le déploiement SaaS (AWS, Azure, Google Cloud, etc.).
                             - Base de données : [préciser la base de données, par exemple, MySQL, MongoDB, etc.].
 ''')            
-            st.markdown(''' ##### 6. **Intégrations tierces** : ''') 
+            st.markdown(''' ##### 6.  Intégrations tierces  : ''') 
             st.markdown(''' ###### L'application SaaS devra être capable de s'intégrer avec d'autres systèmes tiers, tels que : ''') 
             st.markdown(''' - Systèmes de gestion de la relation client (SalesForce).
                             - Outils de business intelligence (BI).
