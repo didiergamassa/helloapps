@@ -620,7 +620,7 @@ def main():
         choice=st.sidebar.selectbox(" ",menu4 )
         if choice == "Budget de conception du projet":
             st.title("Budget de conception du Saas_projet")
-            st.markdown('''## ................................€uros  ''')
+            st.markdown('''## ...........€uros /Information confidentielle ''')
         
         elif choice == "Budget Validation des Tests":
             st.title("Budget Validation des Tests Unitaires et Fonctionnels")
@@ -628,7 +628,7 @@ def main():
                     
         elif choice == "Budget de deploiement du projet":
             st.title("Budget Test et Deploiement Saas  projet")
-            st.markdown('''## ................................€uros  ''')
+            st.markdown('''## ..........€uros/Information confidentielle  ''')
             
     def menu5():
         menu5=['Exigences fonctionnelles','Exigences non fonctionnelles','Contraintes Techniques']
