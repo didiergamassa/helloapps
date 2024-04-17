@@ -130,7 +130,7 @@ def main():
             st.markdown('''Au sein du paysage en constante évolution de la transformation digitale et de l'ingénierie pour la transition écologique, L'APEGG s'engage à fournir des solutions innovantes et durables pour répondre aux défis complexes de notre époque. Notre mission est d'accompagner nos clients dans leur parcours vers un avenir plus écologique, efficient et connecté            ''')
             
             st.markdown(''' ##### Notre Expertise ''')
-            st.markdown('''Transformation Digitale : Nous proposons des stratégies sur mesure pour guider nos clients à travers leur transformation digitale, en optimisant leurs processus métier et en exploitant pleinement les technologies émergentes telles que l'IA, le cloud computing et l'IoT.
+            st.markdown(''' Transformation Digitale : Nous proposons des stratégies sur mesure pour guider nos clients à travers leur transformation digitale, en optimisant leurs processus métier et en exploitant pleinement les technologies émergentes telles que l'IA, le cloud computing et l'IoT.
                ''')
             st.markdown(''' Ingénierie Data : Grâce à notre expertise en analyse de données avancée et en science des données, nous aidons nos clients à tirer parti de leurs données pour prendre des décisions éclairées, améliorer leur efficacité opérationnelle et développer de nouveaux produits et services.
             ''')
@@ -145,7 +145,7 @@ def main():
             
             
             
-            
+            st.markdown(''' ##### Notre Vision: ''')
             st.markdown(''' ######  Une Vision enracinée dans l'Engagement: ''')
             st.markdown(''' Chez L'APEGG, nous nous engageons à perpétuer l'héritage du Dr. Alain Pensé GAMASSA en étant des agents de changement pour la transition écologique. Notre vision est de créer un monde où l'innovation technologique et l'ingénierie sont mises au service de la préservation de notre planète et de l'amélioration de la qualité de vie pour tous. ''')            
         
