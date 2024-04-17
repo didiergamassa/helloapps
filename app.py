@@ -766,6 +766,10 @@ def main():
             
             st.markdown(''' Pendant 1an ,Equipe DEV APEGG aura la possibilité de faire des Tests sur un deploiement de 10 Capteurs gratuitement sur la plateforme Orange Live Objects par le lien suivant:  ''')  
             st.markdown(''' Un compte client ouvert sur la plateforme Iot Orange au nom de APEGG avec Identifiant = dgamassa.thermo@orange.fr  et mot de passe à transmettre en OFF à l'équipe Dev APEGG''')  
+            st.markdown(''' La prise en main de Lora sur l'interfafe Iot d'Orange est étayé sur la video accessible au lien suivant  :''')
+            url32="https://youtu.be/9BKvzyLGXoQ"
+            st.markdown(f'<a href="{url32}" target="_blank">{"Cliquez ici pour visiter"+"www.PrisenMainInterfaceLoraOrange"}</a>', unsafe_allow_html=True)  
+            
             st.markdown(''' Par contre la plate forme the thingsindustries offre aussi un abonnement gratuit mais moyennant une carte bancaire. Carte bancaire = payement accidentel donc il faut rester prudent''') 
             st.markdown(''' ##### 2. Base de données de test intégré dans la plate forme Orange Live Objects  :''')
             st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
