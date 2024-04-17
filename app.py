@@ -119,10 +119,10 @@ def visualize_consumption(data):
 
 def main():
     def menu0():
-        menu0 = ['Perspectives du Cabinet APEGG']
+        menu0 = ['Perspectives_du8Cabinet_APEGG']
         st.sidebar.markdown("<h1 style='font-weight: bold;'> Présentation de l'APEGG </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu0 )
-        if choice==" Perspectives du Cabinet APEGG":
+        if choice==" Perspectives_du_Cabinet_APEGG":
             st.markdown('''### Perspectives d'un Cabinet de Conseil en Transformation Digitale et d'Ingénieries pour la Transition Écologique Globale !''') 
             
             st.markdown('''######  Notre Mission
