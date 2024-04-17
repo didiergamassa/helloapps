@@ -615,10 +615,10 @@ def main():
                         
                
     def menu4():   
-        menu4 = ['Budget de conception du projet','Budget Validation des Tests','Budget de deploiement du projet' ]
+        menu4 = ['Budget d étude et conception du projet','Budget Validation des Tests','Budget de deploiement du projet' ]
         st.sidebar.markdown("<h1 style='font-weight: bold;'>Menu Budget Projet </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu4 )
-        if choice == "Budget de conception du projet":
+        if choice == "Budget d étude et conception du projet":
             st.title("Budget de conception du Saas_projet")
             st.markdown('''## ...........€uros /Information confidentielle ''')
         
