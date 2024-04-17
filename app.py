@@ -675,7 +675,7 @@ def main():
                         - Chiffrement des données sensibles en transit et au repos.
                         - Conformité aux réglementations en matière de protection des données (GDPR, CCPA, etc.).''')
                                                                   
-            st.markdown(''' ##### 2. Scalabilité et disponibilité** :
+            st.markdown(''' ##### 2. Scalabilité et disponibilité  :
                         - Capacité à évoluer pour prendre en charge un nombre croissant d'appareils et de données.
                         - Garantie de disponibilité élevée avec un temps de fonctionnement optimal. ''')
            
