@@ -141,9 +141,9 @@ def main():
 
             Environnement: Nous nous engageons à protéger et à restaurer l'environnement en proposant des solutions d'ingénierie environnementale intégrées, visant à réduire la pollution, à préserver les ressources naturelles et à promouvoir la durabilité.
 
-            Maintenance: Enfin, notre expertise en maintenance permet à nos clients de garantir le bon fonctionnement de leurs infrastructures et équipements, en minimisant les temps d'arrêt, en optimisant les coûts et en prolongeant la durée de vie des actifs.
+            Maintenance: Enfin, notre expertise en maintenance permet à nos clients de garantir le bon fonctionnement de leurs infrastructures et équipements, en minimisant les temps d'arrêt, en optimisant les coûts et en prolongeant la durée de vie des actifs ''')
 
-            Notre Engagement
+            st.markdown(''' ######  Notre Engagement
 
             Chez l'APEGG, nous croyons en un avenir où la technologie et l'innovation sont mises au service de la durabilité et de la prospérité pour tous. Nous nous engageons à travailler en partenariat avec nos clients pour créer un impact positif sur la société et l'environnement, et à œuvrer ensemble pour une transition écologique globale réussie.
 
