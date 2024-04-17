@@ -119,7 +119,7 @@ def visualize_consumption(data):
 
 def main():
     def menu0():
-        menu0 = ['Introduction']
+        menu0 = ['Perspectives du Cabinet APEGG']
         st.sidebar.markdown("<h1 style='font-weight: bold;'> Présentation de l'APEGG </h1>", unsafe_allow_html=True)
         choice=st.sidebar.selectbox(" ",menu0 )
         if choice=="Introduction":
