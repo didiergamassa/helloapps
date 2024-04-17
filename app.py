@@ -131,13 +131,13 @@ def main():
 
             st.markdown(''' ###### Notre Expertise ''')
 
-            st.markdown('''**Transformation Digitale : ** Nous proposons des stratégies sur mesure pour guider nos clients à travers leur transformation digitale, en optimisant leurs processus métier et en exploitant pleinement les technologies émergentes telles que l'IA, le cloud computing et l'IoT.
+            st.markdown('''Transformation Digitale : Nous proposons des stratégies sur mesure pour guider nos clients à travers leur transformation digitale, en optimisant leurs processus métier et en exploitant pleinement les technologies émergentes telles que l'IA, le cloud computing et l'IoT.
                ''')
-            st.markdown(''' **Ingénierie Data : ** Grâce à notre expertise en analyse de données avancée et en science des données, nous aidons nos clients à tirer parti de leurs données pour prendre des décisions éclairées, améliorer leur efficacité opérationnelle et développer de nouveaux produits et services.
+            st.markdown(''' Ingénierie Data : Grâce à notre expertise en analyse de données avancée et en science des données, nous aidons nos clients à tirer parti de leurs données pour prendre des décisions éclairées, améliorer leur efficacité opérationnelle et développer de nouveaux produits et services.
             ''')
-            st.markdown('''**Énergie : ** Nous travaillons avec nos clients pour concevoir et mettre en œuvre des solutions énergétiques durables, allant des énergies renouvelables à l'efficacité énergétique, afin de réduire leur empreinte carbone et de favoriser la transition vers une économie à faible émission de carbone.
+            st.markdown(''' Énergie :  Nous travaillons avec nos clients pour concevoir et mettre en œuvre des solutions énergétiques durables, allant des énergies renouvelables à l'efficacité énergétique, afin de réduire leur empreinte carbone et de favoriser la transition vers une économie à faible émission de carbone.
             ''')
-            st.markdown('''**Santé : ** Dans le domaine de la santé, nous fournissons des solutions innovantes basées sur les données pour améliorer les soins de santé, optimiser les processus cliniques et promouvoir le bien-être des patients et des professionnels de la santé.
+            st.markdown(''' Santé : Dans le domaine de la santé, nous fournissons des solutions innovantes basées sur les données pour améliorer les soins de santé, optimiser les processus cliniques et promouvoir le bien-être des patients et des professionnels de la santé.
             ''')
 
 
