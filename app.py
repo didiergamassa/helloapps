@@ -764,7 +764,8 @@ def main():
             url30="https://www.thethingsindustries.com/stack/plans/"
             st.markdown(f'<a href="{url30}" target="_blank">{"Cliquez ici pour visiter"+"www.Serveurthethingsindustries"}</a>', unsafe_allow_html=True)   
             
-            st.markdown(''' Pendant 1an ,nous avons la possibilité de faire des Tests sur un deploiement de 10 Capteurs gratuitement sur la plateforme Orange Live Objects''') 
+            st.markdown(''' Pendant 1an ,Equipe DEV APEGG aura la possibilité de faire des Tests sur un deploiement de 10 Capteurs gratuitement sur la plateforme Orange Live Objects''') 
+            st.markdown(''' Un compte client ouvert au nom de l'APEGG avec Identifiant et mot de passe à transmettre en OFF à l'équipe Dev APEGG''')  
             st.markdown(''' Par contre la plate forme the thingsindustries offre aussi un abonnement gratuit mais moyennant une carte bancaire''') 
             st.markdown(''' ##### 2. Base de données de test intégré dans la plate forme Orange Live Objects  :''')
             st.markdown(''' ##### 3. Compteur Electrique Communicant Linky  :             ''')
