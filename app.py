@@ -640,33 +640,33 @@ def main():
             st.title("Exigences fonctionnelles:Application SaaS de gestion de flotte d'objets connectés IoT")
             st.markdown(''' ###### Ce cahier des charges décrit les spécifications fonctionnelles et non fonctionnelles pour le développement d'une application SaaS de gestion de flotte d'objets connectés IoT. L'application sera déployée dans un modèle commercial, offrant une solution centralisée pour surveiller, gérer et optimiser une grande variété d'objets IoT à distance.''')
           
-            st.markdown(''' ##### 1. **Gestion des appareils IoT** :
-                        - Ajout, suppression et modification d'appareils IoT dans la flotte.
-                        - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.).
-                        - Surveillance en temps réel de l'état de chaque appareil IoT (connexion, batterie, capteurs, etc.). ''')                                                                   
-            st.markdown(''' ##### 2. ** Gestion de la visualisation des données** :
-                        - Affichage en temps réel des données collectées par chaque appareil IoT.
-                        - Capacité à visualiser des données historiques et à générer des rapports analytiques.
-                        - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.
-                                ''')
-            st.markdown(''' ##### 3. ** Gestion des alertes et notifications** :
-                        - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.).
-                        - Envoi de notifications en temps réel par e-mail, SMS ou intégration à d'autres systèmes de notification.
-                            ''')
-            st.markdown(''' ##### 4. **Gestion des utilisateurs et des rôles** :
-                        - Création de comptes utilisateur avec différents niveaux d'accès.
-                        - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.
-                        - Possibilité de gérer les équipes et les clients au sein de l'application.
-                            ''')
-            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel
-                        - Système de facturation intégré pour la gestion des abonnements clients.
-                        - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.
-                                                ''')
-            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.
-                        - Personnalisation de l'interface utilisateur et du branding pour chaque client.
-                        - Prise en charge de la personnalisation des rapports, des alertes et des notifications.
-                            ''')
-            st.markdown(''' #####      ''')
+            st.markdown(''' ##### 1. **Gestion des appareils IoT** :''')
+            st.markdonw(''' - Ajout, suppression et modification d'appareils IoT dans la flotte.''')
+            st.markdonw('''         - Attribution de métadonnées à chaque appareil IoT (nom, type, emplacement, description, etc.''')
+            st.markdonw('''         - Surveillance en temps réel de l'état de chaque appareil IoT (connexion, batterie, capteurs, etc.). ''')                                                                   
+            st.markdown(''' ##### 2. ** Gestion de la visualisation des données** : ''')
+            st.markdonw('''         - Affichage en temps réel des données collectées par chaque appareil IoT.''')
+            st.markdonw('''         - Capacité à visualiser des données historiques et à générer des rapports analytiques.''')
+            st.markdonw('''         - Présentation des données sous forme de graphiques, de tableaux de bord personnalisés et de cartes géographiques.''')
+            
+            st.markdown(''' ##### 3. ** Gestion des alertes et notifications** :''')
+            st.markdonw('''            - Configuration d'alertes personnalisées pour les événements critiques (défaillance d'un capteur, seuils dépassés, etc.''')
+            st.markdonw('''            - Envoi de notifications en temps réel par e-mail, SMS ou intégration à d'autres systèmes de notification.''')
+            st.markdonw('''            - Possibilité de définir des règles d'automatisation pour les alertes et les actions associées.''')
+            st.markdown(''' ##### 4. **Gestion des utilisateurs et des rôles** :''')
+            st.markdonw('''            - Création de comptes utilisateur avec différents niveaux d'accès.''')
+            st.markdonw('''            - Attribution de rôles et de permissions pour contrôler l'accès aux fonctionnalités de l'application.''')
+            st.markdonw('''             - Possibilité de gérer les équipes et les clients au sein de l'application.''')
+            st.markdonw('''                ''')
+            st.markdown(''' ##### 5. **Gestion des facturations et des abonnements ** : Exigence optionnelle pour client occasionel''')
+            st.markdonw('''            - Système de facturation intégré pour la gestion des abonnements clients.''')
+            st.markdonw('''            - Définition de plans tarifaires flexibles et de modèles de tarification basés sur l'utilisation.''')
+                                                
+            st.markdown(''' ##### 6. **Gestion de personnalisation et branding** : Exigence optionnelle optionnel pour client premium.''')
+            st.markdonw('''            - Personnalisation de l'interface utilisateur et du branding pour chaque client.''')
+            st.markdonw( '''           - Prise en charge de la personnalisation des rapports, des alertes et des notifications.''')
+                        
+            
         elif choice == "Exigences non fonctionnelles":
             st.title("Exigences non fonctionnelles")
             st.markdown(''' ##### En plus des fonctionnalités susmentionnées, l'application doit également répondre aux exigences non fonctionnelles suivantes :''')
